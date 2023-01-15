@@ -7,6 +7,7 @@
 //
 //  Inspired by PSDWriter by Ben Gotow ( https://github.com/bengotow/PSDWriter )
 //
+#import "SFPSDEffectsLayerEffectSignatures.h"
 
 NSString* const SFPSDEffectsLayerEffectSignatureCommonState = @"cmnS";
 NSString* const SFPSDEffectsLayerEffectSignatureDropShadow = @"dsdw";

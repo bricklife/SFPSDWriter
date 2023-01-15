@@ -9,9 +9,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#if TARGET_OS_IPHONE
-#import <UIKit/UIKit.h>
-#endif
 
 #import "SFPSDLayer.h"
 #import "SFPSDGroupOpeningLayer.h"

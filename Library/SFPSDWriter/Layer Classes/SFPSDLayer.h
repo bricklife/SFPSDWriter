@@ -9,10 +9,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-#if TARGET_OS_IPHONE
-#import <UIKit/UIKit.h>
-#endif
+#import <CoreGraphics/CoreGraphics.h>
 
 #import "SFPSDLayerBlendModes.h"
 #import "SFPSDEffectsLayerEffectSignatures.h"

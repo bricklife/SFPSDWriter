@@ -7,6 +7,7 @@
 //
 //  Inspired by PSDWriter by Ben Gotow ( https://github.com/bengotow/PSDWriter )
 //
+#import "SFPSDLayerBlendModes.h"
 
 NSString* const SFPSDLayerBlendModeNormal = @"norm";
 NSString* const SFPSDLayerBlendModeDarken = @"dark";

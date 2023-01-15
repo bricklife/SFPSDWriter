@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0CEBB8F3188694ED00CEA614 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEBB8F2188694ED00CEA614 /* Cocoa.framework */; };
 		0CEBB8FD188694ED00CEA614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CEBB8FB188694ED00CEA614 /* InfoPlist.strings */; };
 		0CEBB9341886953E00CEA614 /* NSData+SFPackedBits.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9201886953E00CEA614 /* NSData+SFPackedBits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CEBB9351886953E00CEA614 /* NSData+SFPackedBits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBB9211886953E00CEA614 /* NSData+SFPackedBits.m */; };
@@ -45,18 +44,13 @@
 		9F7D24F6194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24E9194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.m */; };
 		9F7D24F7194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24EA194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.h */; };
 		9F7D24F8194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24EB194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.m */; };
+		CBCCA4EE29742DBB00749AC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCA4ED29742DBB00749AC7 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CEBB8EF188694ED00CEA614 /* SFPSDWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFPSDWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CEBB8F2188694ED00CEA614 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		0CEBB8F5188694ED00CEA614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0CEBB8F6188694ED00CEA614 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		0CEBB8F7188694ED00CEA614 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0CEBB8FA188694ED00CEA614 /* SFPSDWriter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFPSDWriter-Info.plist"; sourceTree = "<group>"; };
 		0CEBB8FC188694ED00CEA614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0CEBB8FE188694ED00CEA614 /* SFPSDWriter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFPSDWriter-Prefix.pch"; sourceTree = "<group>"; };
-		0CEBB907188694ED00CEA614 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0CEBB9201886953E00CEA614 /* NSData+SFPackedBits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SFPackedBits.h"; sourceTree = "<group>"; };
 		0CEBB9211886953E00CEA614 /* NSData+SFPackedBits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SFPackedBits.m"; sourceTree = "<group>"; };
 		0CEBB9221886953E00CEA614 /* NSMutableData+SFAppendValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+SFAppendValue.h"; sourceTree = "<group>"; };
@@ -93,6 +87,7 @@
 		9F7D24E9194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDOuterGlowEffectLayerInformation.m; sourceTree = "<group>"; };
 		9F7D24EA194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDSolidFillEffectLayerInformation.h; sourceTree = "<group>"; };
 		9F7D24EB194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDSolidFillEffectLayerInformation.m; sourceTree = "<group>"; };
+		CBCCA4ED29742DBB00749AC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CEBB8F3188694ED00CEA614 /* Cocoa.framework in Frameworks */,
+				CBCCA4EE29742DBB00749AC7 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,21 +122,9 @@
 		0CEBB8F1188694ED00CEA614 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0CEBB8F2188694ED00CEA614 /* Cocoa.framework */,
-				0CEBB907188694ED00CEA614 /* XCTest.framework */,
-				0CEBB8F4188694ED00CEA614 /* Other Frameworks */,
+				CBCCA4ED29742DBB00749AC7 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0CEBB8F4188694ED00CEA614 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0CEBB8F5188694ED00CEA614 /* Foundation.framework */,
-				0CEBB8F6188694ED00CEA614 /* CoreData.framework */,
-				0CEBB8F7188694ED00CEA614 /* AppKit.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 		0CEBB8F8188694ED00CEA614 /* SFPSDWriter */ = {
@@ -158,7 +141,6 @@
 			children = (
 				0CEBB8FA188694ED00CEA614 /* SFPSDWriter-Info.plist */,
 				0CEBB8FB188694ED00CEA614 /* InfoPlist.strings */,
-				0CEBB8FE188694ED00CEA614 /* SFPSDWriter-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -317,6 +299,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 0CEBB8E5188694ED00CEA614;
@@ -457,11 +440,15 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SFPSDWriter/SFPSDWriter-Prefix.pch";
 				INFOPLIST_FILE = "SFPSDWriter/SFPSDWriter-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -474,11 +461,15 @@
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SFPSDWriter/SFPSDWriter-Prefix.pch";
 				INFOPLIST_FILE = "SFPSDWriter/SFPSDWriter-Info.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
