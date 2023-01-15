@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0CEBB8FD188694ED00CEA614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CEBB8FB188694ED00CEA614 /* InfoPlist.strings */; };
-		0CEBB9341886953E00CEA614 /* NSData+SFPackedBits.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9201886953E00CEA614 /* NSData+SFPackedBits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEBB9341886953E00CEA614 /* NSData+SFPackedBits.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9201886953E00CEA614 /* NSData+SFPackedBits.h */; };
 		0CEBB9351886953E00CEA614 /* NSData+SFPackedBits.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBB9211886953E00CEA614 /* NSData+SFPackedBits.m */; };
-		0CEBB9361886953E00CEA614 /* NSMutableData+SFAppendValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9221886953E00CEA614 /* NSMutableData+SFAppendValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEBB9361886953E00CEA614 /* NSMutableData+SFAppendValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9221886953E00CEA614 /* NSMutableData+SFAppendValue.h */; };
 		0CEBB9371886953E00CEA614 /* NSMutableData+SFAppendValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBB9231886953E00CEA614 /* NSMutableData+SFAppendValue.m */; };
-		0CEBB9381886953E00CEA614 /* NSString+SFPascalString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9241886953E00CEA614 /* NSString+SFPascalString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEBB9381886953E00CEA614 /* NSString+SFPascalString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9241886953E00CEA614 /* NSString+SFPascalString.h */; };
 		0CEBB9391886953E00CEA614 /* NSString+SFPascalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBB9251886953E00CEA614 /* NSString+SFPascalString.m */; };
 		0CEBB93A1886953E00CEA614 /* SFPSDLayerBlendModes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBB9281886953E00CEA614 /* SFPSDLayerBlendModes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CEBB93B1886953E00CEA614 /* SFPSDLayerBlendModes.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBB9291886953E00CEA614 /* SFPSDLayerBlendModes.m */; };
@@ -29,20 +29,20 @@
 		9F7D24D7194F60B900C82547 /* AdobeRGB1998 in Resources */ = {isa = PBXBuildFile; fileRef = 9F7D24D4194F60B900C82547 /* AdobeRGB1998 */; };
 		9F7D24D8194F60B900C82547 /* GenericRGB in Resources */ = {isa = PBXBuildFile; fileRef = 9F7D24D5194F60B900C82547 /* GenericRGB */; };
 		9F7D24D9194F60B900C82547 /* sRGB in Resources */ = {isa = PBXBuildFile; fileRef = 9F7D24D6194F60B900C82547 /* sRGB */; };
-		9F7D24DC194F60CF00C82547 /* SFPSDEffectsLayerEffectSignatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24DA194F60CF00C82547 /* SFPSDEffectsLayerEffectSignatures.h */; };
+		9F7D24DC194F60CF00C82547 /* SFPSDEffectsLayerEffectSignatures.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24DA194F60CF00C82547 /* SFPSDEffectsLayerEffectSignatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7D24DD194F60CF00C82547 /* SFPSDEffectsLayerEffectSignatures.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24DB194F60CF00C82547 /* SFPSDEffectsLayerEffectSignatures.m */; };
-		9F7D24EC194F60E900C82547 /* SFPSDBevelEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24DF194F60E900C82547 /* SFPSDBevelEffectLayerInformation.h */; };
+		9F7D24EC194F60E900C82547 /* SFPSDBevelEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24DF194F60E900C82547 /* SFPSDBevelEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7D24ED194F60E900C82547 /* SFPSDBevelEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24E0194F60E900C82547 /* SFPSDBevelEffectLayerInformation.m */; };
-		9F7D24EE194F60E900C82547 /* SFPSDDropShadowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E1194F60E900C82547 /* SFPSDDropShadowEffectLayerInformation.h */; };
+		9F7D24EE194F60E900C82547 /* SFPSDDropShadowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E1194F60E900C82547 /* SFPSDDropShadowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7D24EF194F60E900C82547 /* SFPSDDropShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24E2194F60E900C82547 /* SFPSDDropShadowEffectLayerInformation.m */; };
-		9F7D24F0194F60E900C82547 /* SFPSDEffectLayerInformations.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E3194F60E900C82547 /* SFPSDEffectLayerInformations.h */; };
-		9F7D24F1194F60E900C82547 /* SFPSDInnerGlowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E4194F60E900C82547 /* SFPSDInnerGlowEffectLayerInformation.h */; };
+		9F7D24F0194F60E900C82547 /* SFPSDEffectLayerInformations.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E3194F60E900C82547 /* SFPSDEffectLayerInformations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F7D24F1194F60E900C82547 /* SFPSDInnerGlowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E4194F60E900C82547 /* SFPSDInnerGlowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7D24F2194F60E900C82547 /* SFPSDInnerGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24E5194F60E900C82547 /* SFPSDInnerGlowEffectLayerInformation.m */; };
-		9F7D24F3194F60E900C82547 /* SFPSDInnerShadowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E6194F60E900C82547 /* SFPSDInnerShadowEffectLayerInformation.h */; };
+		9F7D24F3194F60E900C82547 /* SFPSDInnerShadowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E6194F60E900C82547 /* SFPSDInnerShadowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7D24F4194F60E900C82547 /* SFPSDInnerShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24E7194F60E900C82547 /* SFPSDInnerShadowEffectLayerInformation.m */; };
-		9F7D24F5194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E8194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.h */; };
+		9F7D24F5194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24E8194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7D24F6194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24E9194F60E900C82547 /* SFPSDOuterGlowEffectLayerInformation.m */; };
-		9F7D24F7194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24EA194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.h */; };
+		9F7D24F7194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7D24EA194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F7D24F8194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24EB194F60E900C82547 /* SFPSDSolidFillEffectLayerInformation.m */; };
 		CBCCA4EE29742DBB00749AC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBCCA4ED29742DBB00749AC7 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
