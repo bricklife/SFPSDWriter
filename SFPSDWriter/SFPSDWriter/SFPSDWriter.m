@@ -485,13 +485,13 @@
 
         switch ([self colorProfile]) {
             case SFPSDAdobeRGB1998ColorProfile:
-                ICCProfileDataFilePath = [[NSBundle mainBundle] pathForResource:@"AdobeRGB1998" ofType:@""];
+                ICCProfileDataFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"AdobeRGB1998" ofType:@""];
                 break;
             case SFPSDGenericRGBColorProfile:
-                ICCProfileDataFilePath = [[NSBundle mainBundle] pathForResource:@"GenericRGB" ofType:@""];
+                ICCProfileDataFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"GenericRGB" ofType:@""];
                 break;
             case SFPSDSRGBColorProfile:
-                ICCProfileDataFilePath = [[NSBundle mainBundle] pathForResource:@"sRGB" ofType:@""];
+                ICCProfileDataFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"sRGB" ofType:@""];
                 break;
             default:
                 /* this is an unreachable case */

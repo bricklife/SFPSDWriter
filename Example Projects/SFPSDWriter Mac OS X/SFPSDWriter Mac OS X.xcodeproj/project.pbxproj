@@ -7,15 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F084AD7176F25A000C5F37B /* NSData+SFPackedBits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AC4176F25A000C5F37B /* NSData+SFPackedBits.m */; };
-		9F084AD8176F25A000C5F37B /* NSMutableData+SFAppendValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AC6176F25A000C5F37B /* NSMutableData+SFAppendValue.m */; };
-		9F084AD9176F25A000C5F37B /* NSString+SFPascalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AC8176F25A000C5F37B /* NSString+SFPascalString.m */; };
-		9F084ADA176F25A000C5F37B /* SFPSDLayerBlendModes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084ACC176F25A000C5F37B /* SFPSDLayerBlendModes.m */; };
-		9F084ADB176F25A000C5F37B /* SFPSDGroupClosingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084ACE176F25A000C5F37B /* SFPSDGroupClosingLayer.m */; };
-		9F084ADC176F25A000C5F37B /* SFPSDGroupLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AD0176F25A000C5F37B /* SFPSDGroupLayer.m */; };
-		9F084ADD176F25A000C5F37B /* SFPSDGroupOpeningLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AD2176F25A000C5F37B /* SFPSDGroupOpeningLayer.m */; };
-		9F084ADE176F25A000C5F37B /* SFPSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AD4176F25A000C5F37B /* SFPSDLayer.m */; };
-		9F084ADF176F25A000C5F37B /* SFPSDWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AD6176F25A000C5F37B /* SFPSDWriter.m */; };
 		9F1ED49B17686ABE00DECCDC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F1ED49A17686ABE00DECCDC /* Cocoa.framework */; };
 		9F1ED4A517686ABE00DECCDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F1ED4A317686ABE00DECCDC /* InfoPlist.strings */; };
 		9F1ED4A717686ABE00DECCDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1ED4A617686ABE00DECCDC /* main.m */; };
@@ -24,37 +15,25 @@
 		9F1ED4B117686ABF00DECCDC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F1ED4AF17686ABF00DECCDC /* MainMenu.xib */; };
 		9F1ED4D917686BD800DECCDC /* firstImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1ED4D717686BD800DECCDC /* firstImage.png */; };
 		9F1ED4DA17686BD800DECCDC /* secondImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F1ED4D817686BD800DECCDC /* secondImage.png */; };
-		9F4C8F10193A74C1006C3CBE /* AdobeRGB1998 in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C8F0D193A74C1006C3CBE /* AdobeRGB1998 */; };
-		9F4C8F11193A74C1006C3CBE /* GenericRGB in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C8F0E193A74C1006C3CBE /* GenericRGB */; };
-		9F4C8F12193A74C1006C3CBE /* sRGB in Resources */ = {isa = PBXBuildFile; fileRef = 9F4C8F0F193A74C1006C3CBE /* sRGB */; };
-		9F7D2487194DA8AF00C82547 /* SFPSDEffectsLayerEffectSignatures.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D2486194DA8AF00C82547 /* SFPSDEffectsLayerEffectSignatures.m */; };
-		9F7D248E194DFBE500C82547 /* SFPSDDropShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D248D194DFBE500C82547 /* SFPSDDropShadowEffectLayerInformation.m */; };
-		9F7D2498194E077B00C82547 /* SFPSDInnerShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D2497194E077B00C82547 /* SFPSDInnerShadowEffectLayerInformation.m */; };
-		9F7D249C194E0F1200C82547 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D249B194E0F1200C82547 /* SFPSDOuterGlowEffectLayerInformation.m */; };
-		9F7D249F194E0F1F00C82547 /* SFPSDInnerGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D249E194E0F1F00C82547 /* SFPSDInnerGlowEffectLayerInformation.m */; };
-		9F7D24A2194E0F2B00C82547 /* SFPSDBevelEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24A1194E0F2B00C82547 /* SFPSDBevelEffectLayerInformation.m */; };
-		9F7D24A5194E0F3900C82547 /* SFPSDSolidFillEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24A4194E0F3900C82547 /* SFPSDSolidFillEffectLayerInformation.m */; };
+		CB5B6B8D2976B956009F8D45 /* SFPSDWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B6B8C2976B956009F8D45 /* SFPSDWriter.framework */; };
+		CB5B6B8E2976B956009F8D45 /* SFPSDWriter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B6B8C2976B956009F8D45 /* SFPSDWriter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CB5B6B8F2976B956009F8D45 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB5B6B8E2976B956009F8D45 /* SFPSDWriter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9F084AC3176F25A000C5F37B /* NSData+SFPackedBits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SFPackedBits.h"; sourceTree = "<group>"; };
-		9F084AC4176F25A000C5F37B /* NSData+SFPackedBits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SFPackedBits.m"; sourceTree = "<group>"; };
-		9F084AC5176F25A000C5F37B /* NSMutableData+SFAppendValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+SFAppendValue.h"; sourceTree = "<group>"; };
-		9F084AC6176F25A000C5F37B /* NSMutableData+SFAppendValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+SFAppendValue.m"; sourceTree = "<group>"; };
-		9F084AC7176F25A000C5F37B /* NSString+SFPascalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SFPascalString.h"; sourceTree = "<group>"; };
-		9F084AC8176F25A000C5F37B /* NSString+SFPascalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SFPascalString.m"; sourceTree = "<group>"; };
-		9F084ACB176F25A000C5F37B /* SFPSDLayerBlendModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDLayerBlendModes.h; sourceTree = "<group>"; };
-		9F084ACC176F25A000C5F37B /* SFPSDLayerBlendModes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDLayerBlendModes.m; sourceTree = "<group>"; };
-		9F084ACD176F25A000C5F37B /* SFPSDGroupClosingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupClosingLayer.h; sourceTree = "<group>"; };
-		9F084ACE176F25A000C5F37B /* SFPSDGroupClosingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupClosingLayer.m; sourceTree = "<group>"; };
-		9F084ACF176F25A000C5F37B /* SFPSDGroupLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupLayer.h; sourceTree = "<group>"; };
-		9F084AD0176F25A000C5F37B /* SFPSDGroupLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupLayer.m; sourceTree = "<group>"; };
-		9F084AD1176F25A000C5F37B /* SFPSDGroupOpeningLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupOpeningLayer.h; sourceTree = "<group>"; };
-		9F084AD2176F25A000C5F37B /* SFPSDGroupOpeningLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupOpeningLayer.m; sourceTree = "<group>"; };
-		9F084AD3176F25A000C5F37B /* SFPSDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDLayer.h; sourceTree = "<group>"; };
-		9F084AD4176F25A000C5F37B /* SFPSDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDLayer.m; sourceTree = "<group>"; };
-		9F084AD5176F25A000C5F37B /* SFPSDWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDWriter.h; sourceTree = "<group>"; };
-		9F084AD6176F25A000C5F37B /* SFPSDWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDWriter.m; sourceTree = "<group>"; };
 		9F1ED49717686ABE00DECCDC /* SFPSDWriter Mac OS X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFPSDWriter Mac OS X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1ED49A17686ABE00DECCDC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9F1ED49D17686ABE00DECCDC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -70,24 +49,7 @@
 		9F1ED4B017686ABF00DECCDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9F1ED4D717686BD800DECCDC /* firstImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstImage.png; sourceTree = "<group>"; };
 		9F1ED4D817686BD800DECCDC /* secondImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondImage.png; sourceTree = "<group>"; };
-		9F4C8F0D193A74C1006C3CBE /* AdobeRGB1998 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdobeRGB1998; sourceTree = "<group>"; };
-		9F4C8F0E193A74C1006C3CBE /* GenericRGB */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenericRGB; sourceTree = "<group>"; };
-		9F4C8F0F193A74C1006C3CBE /* sRGB */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB; sourceTree = "<group>"; };
-		9F7D2485194DA8AF00C82547 /* SFPSDEffectsLayerEffectSignatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDEffectsLayerEffectSignatures.h; sourceTree = "<group>"; };
-		9F7D2486194DA8AF00C82547 /* SFPSDEffectsLayerEffectSignatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDEffectsLayerEffectSignatures.m; sourceTree = "<group>"; };
-		9F7D248C194DFBE500C82547 /* SFPSDDropShadowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDDropShadowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D248D194DFBE500C82547 /* SFPSDDropShadowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDDropShadowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D2496194E077B00C82547 /* SFPSDInnerShadowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDInnerShadowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D2497194E077B00C82547 /* SFPSDInnerShadowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDInnerShadowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D2499194E08A600C82547 /* SFPSDEffectLayerInformations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFPSDEffectLayerInformations.h; sourceTree = "<group>"; };
-		9F7D249A194E0F1200C82547 /* SFPSDOuterGlowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDOuterGlowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D249B194E0F1200C82547 /* SFPSDOuterGlowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDOuterGlowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D249D194E0F1F00C82547 /* SFPSDInnerGlowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDInnerGlowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D249E194E0F1F00C82547 /* SFPSDInnerGlowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDInnerGlowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D24A0194E0F2B00C82547 /* SFPSDBevelEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDBevelEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24A1194E0F2B00C82547 /* SFPSDBevelEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDBevelEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D24A3194E0F3900C82547 /* SFPSDSolidFillEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDSolidFillEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24A4194E0F3900C82547 /* SFPSDSolidFillEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDSolidFillEffectLayerInformation.m; sourceTree = "<group>"; };
+		CB5B6B8C2976B956009F8D45 /* SFPSDWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFPSDWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB5B6B8D2976B956009F8D45 /* SFPSDWriter.framework in Frameworks */,
 				9F1ED49B17686ABE00DECCDC /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,66 +65,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F084AC1176F25A000C5F37B /* SFPSDWriter */ = {
-			isa = PBXGroup;
-			children = (
-				9F084AC2176F25A000C5F37B /* Categories */,
-				9F084AC9176F25A000C5F37B /* Layer Classes */,
-				9F4C8F0C193A74C1006C3CBE /* ICCProfileData */,
-				9F084AD5176F25A000C5F37B /* SFPSDWriter.h */,
-				9F084AD6176F25A000C5F37B /* SFPSDWriter.m */,
-			);
-			name = SFPSDWriter;
-			path = ../../Library/SFPSDWriter;
-			sourceTree = "<group>";
-		};
-		9F084AC2176F25A000C5F37B /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				9F084AC3176F25A000C5F37B /* NSData+SFPackedBits.h */,
-				9F084AC4176F25A000C5F37B /* NSData+SFPackedBits.m */,
-				9F084AC5176F25A000C5F37B /* NSMutableData+SFAppendValue.h */,
-				9F084AC6176F25A000C5F37B /* NSMutableData+SFAppendValue.m */,
-				9F084AC7176F25A000C5F37B /* NSString+SFPascalString.h */,
-				9F084AC8176F25A000C5F37B /* NSString+SFPascalString.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		9F084AC9176F25A000C5F37B /* Layer Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9F7D248B194DFBC600C82547 /* Effect Layer Information Classes */,
-				9F084ACA176F25A000C5F37B /* Constants */,
-				9F084ACD176F25A000C5F37B /* SFPSDGroupClosingLayer.h */,
-				9F084ACE176F25A000C5F37B /* SFPSDGroupClosingLayer.m */,
-				9F084ACF176F25A000C5F37B /* SFPSDGroupLayer.h */,
-				9F084AD0176F25A000C5F37B /* SFPSDGroupLayer.m */,
-				9F084AD1176F25A000C5F37B /* SFPSDGroupOpeningLayer.h */,
-				9F084AD2176F25A000C5F37B /* SFPSDGroupOpeningLayer.m */,
-				9F084AD3176F25A000C5F37B /* SFPSDLayer.h */,
-				9F084AD4176F25A000C5F37B /* SFPSDLayer.m */,
-			);
-			path = "Layer Classes";
-			sourceTree = "<group>";
-		};
-		9F084ACA176F25A000C5F37B /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				9F084ACB176F25A000C5F37B /* SFPSDLayerBlendModes.h */,
-				9F084ACC176F25A000C5F37B /* SFPSDLayerBlendModes.m */,
-				9F7D2485194DA8AF00C82547 /* SFPSDEffectsLayerEffectSignatures.h */,
-				9F7D2486194DA8AF00C82547 /* SFPSDEffectsLayerEffectSignatures.m */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
 		9F1ED48E17686ABE00DECCDC = {
 			isa = PBXGroup;
 			children = (
 				9F1ED4A017686ABE00DECCDC /* SFPSDWriter Mac OS X */,
 				9F1ED4D617686BD800DECCDC /* Resources */,
-				9F084AC1176F25A000C5F37B /* SFPSDWriter */,
 				9F1ED49917686ABE00DECCDC /* Frameworks */,
 				9F1ED49817686ABE00DECCDC /* Products */,
 			);
@@ -178,6 +86,7 @@
 		9F1ED49917686ABE00DECCDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB5B6B8C2976B956009F8D45 /* SFPSDWriter.framework */,
 				9F1ED49A17686ABE00DECCDC /* Cocoa.framework */,
 				9F1ED49C17686ABE00DECCDC /* Other Frameworks */,
 			);
@@ -227,36 +136,6 @@
 			path = "SFPSDWriter Mac OS X/Resources";
 			sourceTree = "<group>";
 		};
-		9F4C8F0C193A74C1006C3CBE /* ICCProfileData */ = {
-			isa = PBXGroup;
-			children = (
-				9F4C8F0D193A74C1006C3CBE /* AdobeRGB1998 */,
-				9F4C8F0E193A74C1006C3CBE /* GenericRGB */,
-				9F4C8F0F193A74C1006C3CBE /* sRGB */,
-			);
-			path = ICCProfileData;
-			sourceTree = "<group>";
-		};
-		9F7D248B194DFBC600C82547 /* Effect Layer Information Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9F7D2499194E08A600C82547 /* SFPSDEffectLayerInformations.h */,
-				9F7D248C194DFBE500C82547 /* SFPSDDropShadowEffectLayerInformation.h */,
-				9F7D248D194DFBE500C82547 /* SFPSDDropShadowEffectLayerInformation.m */,
-				9F7D2496194E077B00C82547 /* SFPSDInnerShadowEffectLayerInformation.h */,
-				9F7D2497194E077B00C82547 /* SFPSDInnerShadowEffectLayerInformation.m */,
-				9F7D249A194E0F1200C82547 /* SFPSDOuterGlowEffectLayerInformation.h */,
-				9F7D249B194E0F1200C82547 /* SFPSDOuterGlowEffectLayerInformation.m */,
-				9F7D249D194E0F1F00C82547 /* SFPSDInnerGlowEffectLayerInformation.h */,
-				9F7D249E194E0F1F00C82547 /* SFPSDInnerGlowEffectLayerInformation.m */,
-				9F7D24A0194E0F2B00C82547 /* SFPSDBevelEffectLayerInformation.h */,
-				9F7D24A1194E0F2B00C82547 /* SFPSDBevelEffectLayerInformation.m */,
-				9F7D24A3194E0F3900C82547 /* SFPSDSolidFillEffectLayerInformation.h */,
-				9F7D24A4194E0F3900C82547 /* SFPSDSolidFillEffectLayerInformation.m */,
-			);
-			path = "Effect Layer Information Classes";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,6 +146,7 @@
 				9F1ED49317686ABE00DECCDC /* Sources */,
 				9F1ED49417686ABE00DECCDC /* Frameworks */,
 				9F1ED49517686ABE00DECCDC /* Resources */,
+				CB5B6B8F2976B956009F8D45 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +172,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 9F1ED48E17686ABE00DECCDC;
@@ -310,11 +191,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F1ED4A517686ABE00DECCDC /* InfoPlist.strings in Resources */,
-				9F4C8F10193A74C1006C3CBE /* AdobeRGB1998 in Resources */,
-				9F4C8F12193A74C1006C3CBE /* sRGB in Resources */,
 				9F1ED4AB17686ABE00DECCDC /* Credits.rtf in Resources */,
 				9F1ED4B117686ABF00DECCDC /* MainMenu.xib in Resources */,
-				9F4C8F11193A74C1006C3CBE /* GenericRGB in Resources */,
 				9F1ED4D917686BD800DECCDC /* firstImage.png in Resources */,
 				9F1ED4DA17686BD800DECCDC /* secondImage.png in Resources */,
 			);
@@ -329,22 +207,6 @@
 			files = (
 				9F1ED4A717686ABE00DECCDC /* main.m in Sources */,
 				9F1ED4AE17686ABE00DECCDC /* SFAppDelegate.m in Sources */,
-				9F084AD7176F25A000C5F37B /* NSData+SFPackedBits.m in Sources */,
-				9F084AD8176F25A000C5F37B /* NSMutableData+SFAppendValue.m in Sources */,
-				9F7D248E194DFBE500C82547 /* SFPSDDropShadowEffectLayerInformation.m in Sources */,
-				9F084AD9176F25A000C5F37B /* NSString+SFPascalString.m in Sources */,
-				9F7D249F194E0F1F00C82547 /* SFPSDInnerGlowEffectLayerInformation.m in Sources */,
-				9F7D2487194DA8AF00C82547 /* SFPSDEffectsLayerEffectSignatures.m in Sources */,
-				9F084ADA176F25A000C5F37B /* SFPSDLayerBlendModes.m in Sources */,
-				9F084ADB176F25A000C5F37B /* SFPSDGroupClosingLayer.m in Sources */,
-				9F084ADC176F25A000C5F37B /* SFPSDGroupLayer.m in Sources */,
-				9F7D24A2194E0F2B00C82547 /* SFPSDBevelEffectLayerInformation.m in Sources */,
-				9F7D2498194E077B00C82547 /* SFPSDInnerShadowEffectLayerInformation.m in Sources */,
-				9F084ADD176F25A000C5F37B /* SFPSDGroupOpeningLayer.m in Sources */,
-				9F084ADE176F25A000C5F37B /* SFPSDLayer.m in Sources */,
-				9F7D24A5194E0F3900C82547 /* SFPSDSolidFillEffectLayerInformation.m in Sources */,
-				9F7D249C194E0F1200C82547 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */,
-				9F084ADF176F25A000C5F37B /* SFPSDWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +304,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFPSDWriter Mac OS X/SFPSDWriter Mac OS X-Prefix.pch";
 				INFOPLIST_FILE = "SFPSDWriter Mac OS X/SFPSDWriter Mac OS X-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -454,6 +317,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFPSDWriter Mac OS X/SFPSDWriter Mac OS X-Prefix.pch";
 				INFOPLIST_FILE = "SFPSDWriter Mac OS X/SFPSDWriter Mac OS X-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -8,7 +8,7 @@
 
 #import "SFAppDelegate.h"
 
-#import "SFPSDWriter.h"
+#import <SFPSDWriter/SFPSDWriter.h>
 
 @implementation SFAppDelegate
 
@@ -28,7 +28,7 @@
     [firstGroup setIsOpened:YES];
     
     // Adding the first image layer
-    [psdWriter addLayerWithCGImage:[[[firstImage representations] objectAtIndex:0] CGImage]
+    [psdWriter addLayerWithCGImage:[firstImage CGImageForProposedRect:NULL context:NULL hints:NULL]
                            andName:@"First Layer"
                         andOpacity:1
                          andOffset:NSMakePoint(0, 0)];
@@ -38,7 +38,7 @@
     [psdWriter openGroupLayerWithName:@"You'll have to open me!"];
     
     // The second image will be in the second group, offsetted by (116px, 66px), semi-transparent...
-    SFPSDLayer *secondLayer = [psdWriter addLayerWithCGImage:[[[secondImage representations] objectAtIndex:0] CGImage]
+    SFPSDLayer *secondLayer = [psdWriter addLayerWithCGImage:[secondImage CGImageForProposedRect:NULL context:NULL hints:NULL]
                                                      andName:@"Second Layer"
                                                   andOpacity:0.5
                                                    andOffset:NSMakePoint(116, 66)];

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SFPSDWriter/SFPSDWriter.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Example Projects"
+      name = "Example Projects">
+      <FileRef
+         location = "group:SFPSDWriter iOS/SFPSDWriter iOS.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:SFPSDWriter Mac OS X/SFPSDWriter Mac OS X.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:SFPSDWriter Stress Tester/SFPSDWriter Stress Tester.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

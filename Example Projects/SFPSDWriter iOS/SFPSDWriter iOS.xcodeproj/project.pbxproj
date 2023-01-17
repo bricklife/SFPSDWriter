@@ -7,25 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F084AB8176F251300C5F37B /* NSData+SFPackedBits.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AA5176F251300C5F37B /* NSData+SFPackedBits.m */; };
-		9F084AB9176F251300C5F37B /* NSMutableData+SFAppendValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AA7176F251300C5F37B /* NSMutableData+SFAppendValue.m */; };
-		9F084ABA176F251300C5F37B /* NSString+SFPascalString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AA9176F251300C5F37B /* NSString+SFPascalString.m */; };
-		9F084ABB176F251300C5F37B /* SFPSDLayerBlendModes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AAD176F251300C5F37B /* SFPSDLayerBlendModes.m */; };
-		9F084ABC176F251300C5F37B /* SFPSDGroupClosingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AAF176F251300C5F37B /* SFPSDGroupClosingLayer.m */; };
-		9F084ABD176F251300C5F37B /* SFPSDGroupLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AB1176F251300C5F37B /* SFPSDGroupLayer.m */; };
-		9F084ABE176F251300C5F37B /* SFPSDGroupOpeningLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AB3176F251300C5F37B /* SFPSDGroupOpeningLayer.m */; };
-		9F084ABF176F251300C5F37B /* SFPSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AB5176F251300C5F37B /* SFPSDLayer.m */; };
-		9F084AC0176F251300C5F37B /* SFPSDWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F084AB7176F251300C5F37B /* SFPSDWriter.m */; };
-		9F7D2495194E007400C82547 /* SFPSDEffectsLayerEffectSignatures.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D2494194E007400C82547 /* SFPSDEffectsLayerEffectSignatures.m */; };
-		9F7D24B3194E4EB200C82547 /* SFPSDBevelEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24A7194E4EB200C82547 /* SFPSDBevelEffectLayerInformation.m */; };
-		9F7D24B4194E4EB200C82547 /* SFPSDDropShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24A9194E4EB200C82547 /* SFPSDDropShadowEffectLayerInformation.m */; };
-		9F7D24B5194E4EB200C82547 /* SFPSDInnerGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24AC194E4EB200C82547 /* SFPSDInnerGlowEffectLayerInformation.m */; };
-		9F7D24B6194E4EB200C82547 /* SFPSDInnerShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24AE194E4EB200C82547 /* SFPSDInnerShadowEffectLayerInformation.m */; };
-		9F7D24B7194E4EB200C82547 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24B0194E4EB200C82547 /* SFPSDOuterGlowEffectLayerInformation.m */; };
-		9F7D24B8194E4EB200C82547 /* SFPSDSolidFillEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D24B2194E4EB200C82547 /* SFPSDSolidFillEffectLayerInformation.m */; };
-		9F9689F0193A7A4400A7DBF7 /* AdobeRGB1998 in Resources */ = {isa = PBXBuildFile; fileRef = 9F9689ED193A7A4400A7DBF7 /* AdobeRGB1998 */; };
-		9F9689F1193A7A4400A7DBF7 /* GenericRGB in Resources */ = {isa = PBXBuildFile; fileRef = 9F9689EE193A7A4400A7DBF7 /* GenericRGB */; };
-		9F9689F2193A7A4400A7DBF7 /* sRGB in Resources */ = {isa = PBXBuildFile; fileRef = 9F9689EF193A7A4400A7DBF7 /* sRGB */; };
 		9FA4EC0D1767845D00B3CC9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA4EC0C1767845D00B3CC9F /* UIKit.framework */; };
 		9FA4EC0F1767845D00B3CC9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA4EC0E1767845D00B3CC9F /* Foundation.framework */; };
 		9FA4EC111767845D00B3CC9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA4EC101767845D00B3CC9F /* CoreGraphics.framework */; };
@@ -40,45 +21,25 @@
 		9FA4EC2C1767845D00B3CC9F /* SFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA4EC2B1767845D00B3CC9F /* SFViewController.m */; };
 		9FA4EC35176784CE00B3CC9F /* firstImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4EC33176784CE00B3CC9F /* firstImage.png */; };
 		9FA4EC36176784CE00B3CC9F /* secondImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA4EC34176784CE00B3CC9F /* secondImage.png */; };
+		CB5B6B862976B135009F8D45 /* SFPSDWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B6B852976B135009F8D45 /* SFPSDWriter.framework */; };
+		CB5B6B872976B135009F8D45 /* SFPSDWriter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B6B852976B135009F8D45 /* SFPSDWriter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CB5B6B882976B135009F8D45 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CB5B6B872976B135009F8D45 /* SFPSDWriter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		9F084AA4176F251300C5F37B /* NSData+SFPackedBits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SFPackedBits.h"; sourceTree = "<group>"; };
-		9F084AA5176F251300C5F37B /* NSData+SFPackedBits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SFPackedBits.m"; sourceTree = "<group>"; };
-		9F084AA6176F251300C5F37B /* NSMutableData+SFAppendValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+SFAppendValue.h"; sourceTree = "<group>"; };
-		9F084AA7176F251300C5F37B /* NSMutableData+SFAppendValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+SFAppendValue.m"; sourceTree = "<group>"; };
-		9F084AA8176F251300C5F37B /* NSString+SFPascalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SFPascalString.h"; sourceTree = "<group>"; };
-		9F084AA9176F251300C5F37B /* NSString+SFPascalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SFPascalString.m"; sourceTree = "<group>"; };
-		9F084AAC176F251300C5F37B /* SFPSDLayerBlendModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDLayerBlendModes.h; sourceTree = "<group>"; };
-		9F084AAD176F251300C5F37B /* SFPSDLayerBlendModes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDLayerBlendModes.m; sourceTree = "<group>"; };
-		9F084AAE176F251300C5F37B /* SFPSDGroupClosingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupClosingLayer.h; sourceTree = "<group>"; };
-		9F084AAF176F251300C5F37B /* SFPSDGroupClosingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupClosingLayer.m; sourceTree = "<group>"; };
-		9F084AB0176F251300C5F37B /* SFPSDGroupLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupLayer.h; sourceTree = "<group>"; };
-		9F084AB1176F251300C5F37B /* SFPSDGroupLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupLayer.m; sourceTree = "<group>"; };
-		9F084AB2176F251300C5F37B /* SFPSDGroupOpeningLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupOpeningLayer.h; sourceTree = "<group>"; };
-		9F084AB3176F251300C5F37B /* SFPSDGroupOpeningLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupOpeningLayer.m; sourceTree = "<group>"; };
-		9F084AB4176F251300C5F37B /* SFPSDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDLayer.h; sourceTree = "<group>"; };
-		9F084AB5176F251300C5F37B /* SFPSDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDLayer.m; sourceTree = "<group>"; };
-		9F084AB6176F251300C5F37B /* SFPSDWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDWriter.h; sourceTree = "<group>"; };
-		9F084AB7176F251300C5F37B /* SFPSDWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDWriter.m; sourceTree = "<group>"; };
-		9F7D2493194E007400C82547 /* SFPSDEffectsLayerEffectSignatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDEffectsLayerEffectSignatures.h; sourceTree = "<group>"; };
-		9F7D2494194E007400C82547 /* SFPSDEffectsLayerEffectSignatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDEffectsLayerEffectSignatures.m; sourceTree = "<group>"; };
-		9F7D24A6194E4EB200C82547 /* SFPSDBevelEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDBevelEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24A7194E4EB200C82547 /* SFPSDBevelEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDBevelEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D24A8194E4EB200C82547 /* SFPSDDropShadowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDDropShadowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24A9194E4EB200C82547 /* SFPSDDropShadowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDDropShadowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D24AA194E4EB200C82547 /* SFPSDEffectLayerInformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDEffectLayerInformations.h; sourceTree = "<group>"; };
-		9F7D24AB194E4EB200C82547 /* SFPSDInnerGlowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDInnerGlowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24AC194E4EB200C82547 /* SFPSDInnerGlowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDInnerGlowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D24AD194E4EB200C82547 /* SFPSDInnerShadowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDInnerShadowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24AE194E4EB200C82547 /* SFPSDInnerShadowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDInnerShadowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D24AF194E4EB200C82547 /* SFPSDOuterGlowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDOuterGlowEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24B0194E4EB200C82547 /* SFPSDOuterGlowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDOuterGlowEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F7D24B1194E4EB200C82547 /* SFPSDSolidFillEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDSolidFillEffectLayerInformation.h; sourceTree = "<group>"; };
-		9F7D24B2194E4EB200C82547 /* SFPSDSolidFillEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDSolidFillEffectLayerInformation.m; sourceTree = "<group>"; };
-		9F9689ED193A7A4400A7DBF7 /* AdobeRGB1998 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdobeRGB1998; sourceTree = "<group>"; };
-		9F9689EE193A7A4400A7DBF7 /* GenericRGB */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenericRGB; sourceTree = "<group>"; };
-		9F9689EF193A7A4400A7DBF7 /* sRGB */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB; sourceTree = "<group>"; };
 		9FA4EC091767845D00B3CC9F /* SFPSDWriter iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SFPSDWriter iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA4EC0C1767845D00B3CC9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9FA4EC0E1767845D00B3CC9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -98,6 +59,8 @@
 		9FA4EC2B1767845D00B3CC9F /* SFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFViewController.m; sourceTree = "<group>"; };
 		9FA4EC33176784CE00B3CC9F /* firstImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstImage.png; sourceTree = "<group>"; };
 		9FA4EC34176784CE00B3CC9F /* secondImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = secondImage.png; sourceTree = "<group>"; };
+		CB5B6B812976B0ED009F8D45 /* SFPSDWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFPSDWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5B6B852976B135009F8D45 /* SFPSDWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFPSDWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +70,7 @@
 			files = (
 				9FA4EC0D1767845D00B3CC9F /* UIKit.framework in Frameworks */,
 				9FA4EC0F1767845D00B3CC9F /* Foundation.framework in Frameworks */,
+				CB5B6B862976B135009F8D45 /* SFPSDWriter.framework in Frameworks */,
 				9FA4EC111767845D00B3CC9F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,96 +78,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9F084AA2176F251300C5F37B /* SFPSDWriter */ = {
-			isa = PBXGroup;
-			children = (
-				9F084AA3176F251300C5F37B /* Categories */,
-				9F084AAA176F251300C5F37B /* Layer Classes */,
-				9F9689EC193A7A4400A7DBF7 /* ICCProfileData */,
-				9F084AB6176F251300C5F37B /* SFPSDWriter.h */,
-				9F084AB7176F251300C5F37B /* SFPSDWriter.m */,
-			);
-			name = SFPSDWriter;
-			path = ../../Library/SFPSDWriter;
-			sourceTree = "<group>";
-		};
-		9F084AA3176F251300C5F37B /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				9F084AA4176F251300C5F37B /* NSData+SFPackedBits.h */,
-				9F084AA5176F251300C5F37B /* NSData+SFPackedBits.m */,
-				9F084AA6176F251300C5F37B /* NSMutableData+SFAppendValue.h */,
-				9F084AA7176F251300C5F37B /* NSMutableData+SFAppendValue.m */,
-				9F084AA8176F251300C5F37B /* NSString+SFPascalString.h */,
-				9F084AA9176F251300C5F37B /* NSString+SFPascalString.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		9F084AAA176F251300C5F37B /* Layer Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9F7D248F194E005900C82547 /* Effect Layer Information Classes */,
-				9F084AAB176F251300C5F37B /* Constants */,
-				9F084AAE176F251300C5F37B /* SFPSDGroupClosingLayer.h */,
-				9F084AAF176F251300C5F37B /* SFPSDGroupClosingLayer.m */,
-				9F084AB0176F251300C5F37B /* SFPSDGroupLayer.h */,
-				9F084AB1176F251300C5F37B /* SFPSDGroupLayer.m */,
-				9F084AB2176F251300C5F37B /* SFPSDGroupOpeningLayer.h */,
-				9F084AB3176F251300C5F37B /* SFPSDGroupOpeningLayer.m */,
-				9F084AB4176F251300C5F37B /* SFPSDLayer.h */,
-				9F084AB5176F251300C5F37B /* SFPSDLayer.m */,
-			);
-			path = "Layer Classes";
-			sourceTree = "<group>";
-		};
-		9F084AAB176F251300C5F37B /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				9F084AAC176F251300C5F37B /* SFPSDLayerBlendModes.h */,
-				9F084AAD176F251300C5F37B /* SFPSDLayerBlendModes.m */,
-				9F7D2493194E007400C82547 /* SFPSDEffectsLayerEffectSignatures.h */,
-				9F7D2494194E007400C82547 /* SFPSDEffectsLayerEffectSignatures.m */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		9F7D248F194E005900C82547 /* Effect Layer Information Classes */ = {
-			isa = PBXGroup;
-			children = (
-				9F7D24A6194E4EB200C82547 /* SFPSDBevelEffectLayerInformation.h */,
-				9F7D24A7194E4EB200C82547 /* SFPSDBevelEffectLayerInformation.m */,
-				9F7D24A8194E4EB200C82547 /* SFPSDDropShadowEffectLayerInformation.h */,
-				9F7D24A9194E4EB200C82547 /* SFPSDDropShadowEffectLayerInformation.m */,
-				9F7D24AA194E4EB200C82547 /* SFPSDEffectLayerInformations.h */,
-				9F7D24AB194E4EB200C82547 /* SFPSDInnerGlowEffectLayerInformation.h */,
-				9F7D24AC194E4EB200C82547 /* SFPSDInnerGlowEffectLayerInformation.m */,
-				9F7D24AD194E4EB200C82547 /* SFPSDInnerShadowEffectLayerInformation.h */,
-				9F7D24AE194E4EB200C82547 /* SFPSDInnerShadowEffectLayerInformation.m */,
-				9F7D24AF194E4EB200C82547 /* SFPSDOuterGlowEffectLayerInformation.h */,
-				9F7D24B0194E4EB200C82547 /* SFPSDOuterGlowEffectLayerInformation.m */,
-				9F7D24B1194E4EB200C82547 /* SFPSDSolidFillEffectLayerInformation.h */,
-				9F7D24B2194E4EB200C82547 /* SFPSDSolidFillEffectLayerInformation.m */,
-			);
-			path = "Effect Layer Information Classes";
-			sourceTree = "<group>";
-		};
-		9F9689EC193A7A4400A7DBF7 /* ICCProfileData */ = {
-			isa = PBXGroup;
-			children = (
-				9F9689ED193A7A4400A7DBF7 /* AdobeRGB1998 */,
-				9F9689EE193A7A4400A7DBF7 /* GenericRGB */,
-				9F9689EF193A7A4400A7DBF7 /* sRGB */,
-			);
-			path = ICCProfileData;
-			sourceTree = "<group>";
-		};
 		9FA4EC001767845D00B3CC9F = {
 			isa = PBXGroup;
 			children = (
 				9FA4EC121767845D00B3CC9F /* SFPSDWriter iOS */,
 				9FA4EC32176784CE00B3CC9F /* Resources */,
-				9F084AA2176F251300C5F37B /* SFPSDWriter */,
 				9FA4EC0B1767845D00B3CC9F /* Frameworks */,
 				9FA4EC0A1767845D00B3CC9F /* Products */,
 			);
@@ -220,6 +99,8 @@
 		9FA4EC0B1767845D00B3CC9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CB5B6B852976B135009F8D45 /* SFPSDWriter.framework */,
+				CB5B6B812976B0ED009F8D45 /* SFPSDWriter.framework */,
 				9FA4EC0C1767845D00B3CC9F /* UIKit.framework */,
 				9FA4EC0E1767845D00B3CC9F /* Foundation.framework */,
 				9FA4EC101767845D00B3CC9F /* CoreGraphics.framework */,
@@ -275,6 +156,7 @@
 				9FA4EC051767845D00B3CC9F /* Sources */,
 				9FA4EC061767845D00B3CC9F /* Frameworks */,
 				9FA4EC071767845D00B3CC9F /* Resources */,
+				CB5B6B882976B135009F8D45 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,6 +182,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 9FA4EC001767845D00B3CC9F;
@@ -317,7 +200,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F9689F1193A7A4400A7DBF7 /* GenericRGB in Resources */,
 				9FA4EC171767845D00B3CC9F /* InfoPlist.strings in Resources */,
 				9FA4EC1F1767845D00B3CC9F /* Default.png in Resources */,
 				9FA4EC211767845D00B3CC9F /* Default@2x.png in Resources */,
@@ -325,9 +207,7 @@
 				9FA4EC261767845D00B3CC9F /* MainStoryboard_iPhone.storyboard in Resources */,
 				9FA4EC291767845D00B3CC9F /* MainStoryboard_iPad.storyboard in Resources */,
 				9FA4EC35176784CE00B3CC9F /* firstImage.png in Resources */,
-				9F9689F0193A7A4400A7DBF7 /* AdobeRGB1998 in Resources */,
 				9FA4EC36176784CE00B3CC9F /* secondImage.png in Resources */,
-				9F9689F2193A7A4400A7DBF7 /* sRGB in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,24 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FA4EC191767845D00B3CC9F /* main.m in Sources */,
-				9F7D24B7194E4EB200C82547 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */,
 				9FA4EC1D1767845D00B3CC9F /* SFAppDelegate.m in Sources */,
 				9FA4EC2C1767845D00B3CC9F /* SFViewController.m in Sources */,
-				9F084AB8176F251300C5F37B /* NSData+SFPackedBits.m in Sources */,
-				9F084AB9176F251300C5F37B /* NSMutableData+SFAppendValue.m in Sources */,
-				9F7D24B8194E4EB200C82547 /* SFPSDSolidFillEffectLayerInformation.m in Sources */,
-				9F7D24B3194E4EB200C82547 /* SFPSDBevelEffectLayerInformation.m in Sources */,
-				9F7D24B5194E4EB200C82547 /* SFPSDInnerGlowEffectLayerInformation.m in Sources */,
-				9F084ABA176F251300C5F37B /* NSString+SFPascalString.m in Sources */,
-				9F084ABB176F251300C5F37B /* SFPSDLayerBlendModes.m in Sources */,
-				9F7D24B6194E4EB200C82547 /* SFPSDInnerShadowEffectLayerInformation.m in Sources */,
-				9F084ABC176F251300C5F37B /* SFPSDGroupClosingLayer.m in Sources */,
-				9F084ABD176F251300C5F37B /* SFPSDGroupLayer.m in Sources */,
-				9F084ABE176F251300C5F37B /* SFPSDGroupOpeningLayer.m in Sources */,
-				9F084ABF176F251300C5F37B /* SFPSDLayer.m in Sources */,
-				9F084AC0176F251300C5F37B /* SFPSDWriter.m in Sources */,
-				9F7D24B4194E4EB200C82547 /* SFPSDDropShadowEffectLayerInformation.m in Sources */,
-				9F7D2495194E007400C82547 /* SFPSDEffectsLayerEffectSignatures.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +318,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFPSDWriter iOS/SFPSDWriter iOS-Prefix.pch";
 				INFOPLIST_FILE = "SFPSDWriter iOS/SFPSDWriter iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,6 +330,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SFPSDWriter iOS/SFPSDWriter iOS-Prefix.pch";
 				INFOPLIST_FILE = "SFPSDWriter iOS/SFPSDWriter iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

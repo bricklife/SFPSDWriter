@@ -10,8 +10,6 @@
 
 #import "SFAppDelegate.h"
 
-#import "NSData+SFPackedBits.h"
-
 @implementation SFAppDelegate
 
 @synthesize writer = _writer;
@@ -24,8 +22,8 @@
 
 - (void)addLayerWithOffset:(CGPoint)offset andOpacity:(float)opacity
 {
-    CGImageRef image = [[[[NSImage imageNamed:@"layerImage"] representations] objectAtIndex:0] CGImage];
-//    CGImageRef imageCMYK = [[[[NSImage imageNamed:@"layerImageCMYK"] representations] objectAtIndex:0] CGImage];
+    CGImageRef image = [[NSImage imageNamed:@"layerImage"] CGImageForProposedRect:NULL context:NULL hints:NULL];
+//    CGImageRef imageCMYK = [[NSImage imageNamed:@"layerImageCMYK"] CGImageForProposedRect:NULL context:NULL hints:NULL];
     
     NSString *name = [NSString stringWithFormat:@"random layer %ld", (unsigned long)([self.writer.layers count] + 1)];
     

@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-#import "SFPSDWriter.h"
+#import <SFPSDWriter/SFPSDWriter.h>
 
 @interface SFAppDelegate : NSObject <NSApplicationDelegate>
 

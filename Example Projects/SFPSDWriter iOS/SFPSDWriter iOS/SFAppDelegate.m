@@ -8,7 +8,7 @@
 
 #import "SFAppDelegate.h"
 
-#import "SFPSDWriter.h"
+#import <SFPSDWriter/SFPSDWriter.h>
 
 @implementation SFAppDelegate
 

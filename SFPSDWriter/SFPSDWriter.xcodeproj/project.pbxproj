@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5B6B2A2976AD97009F8D45 /* SFPSDWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B292976AD97009F8D45 /* SFPSDWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B582976AE64009F8D45 /* sRGB in Resources */ = {isa = PBXBuildFile; fileRef = CB5B6B312976AE63009F8D45 /* sRGB */; };
+		CB5B6B592976AE64009F8D45 /* GenericRGB in Resources */ = {isa = PBXBuildFile; fileRef = CB5B6B322976AE63009F8D45 /* GenericRGB */; };
+		CB5B6B5A2976AE64009F8D45 /* AdobeRGB1998 in Resources */ = {isa = PBXBuildFile; fileRef = CB5B6B332976AE63009F8D45 /* AdobeRGB1998 */; };
+		CB5B6B5B2976AE64009F8D45 /* NSString+SFPascalString.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B352976AE63009F8D45 /* NSString+SFPascalString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B5C2976AE64009F8D45 /* NSData+SFPackedBits.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B362976AE63009F8D45 /* NSData+SFPackedBits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B5D2976AE64009F8D45 /* NSMutableData+SFAppendValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B372976AE63009F8D45 /* NSMutableData+SFAppendValue.m */; };
+		CB5B6B5E2976AE64009F8D45 /* NSString+SFPascalString.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B382976AE63009F8D45 /* NSString+SFPascalString.m */; };
+		CB5B6B5F2976AE64009F8D45 /* NSData+SFPackedBits.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B392976AE63009F8D45 /* NSData+SFPackedBits.m */; };
+		CB5B6B602976AE64009F8D45 /* NSMutableData+SFAppendValue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3A2976AE63009F8D45 /* NSMutableData+SFAppendValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B612976AE64009F8D45 /* SFPSDWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B3B2976AE63009F8D45 /* SFPSDWriter.m */; };
+		CB5B6B622976AE64009F8D45 /* SFPSDLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3D2976AE63009F8D45 /* SFPSDLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B632976AE64009F8D45 /* SFPSDGroupLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3E2976AE63009F8D45 /* SFPSDGroupLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B642976AE64009F8D45 /* SFPSDGroupOpeningLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3F2976AE63009F8D45 /* SFPSDGroupOpeningLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B652976AE64009F8D45 /* SFPSDEffectsLayerEffectSignatures.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B412976AE63009F8D45 /* SFPSDEffectsLayerEffectSignatures.m */; };
+		CB5B6B662976AE64009F8D45 /* SFPSDLayerBlendModes.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B422976AE63009F8D45 /* SFPSDLayerBlendModes.m */; };
+		CB5B6B672976AE64009F8D45 /* SFPSDEffectsLayerEffectSignatures.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B432976AE63009F8D45 /* SFPSDEffectsLayerEffectSignatures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B682976AE64009F8D45 /* SFPSDLayerBlendModes.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B442976AE63009F8D45 /* SFPSDLayerBlendModes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B692976AE64009F8D45 /* SFPSDGroupClosingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B452976AE63009F8D45 /* SFPSDGroupClosingLayer.m */; };
+		CB5B6B6A2976AE64009F8D45 /* SFPSDDropShadowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B472976AE63009F8D45 /* SFPSDDropShadowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B6B2976AE64009F8D45 /* SFPSDOuterGlowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B482976AE63009F8D45 /* SFPSDOuterGlowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B6C2976AE64009F8D45 /* SFPSDInnerShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B492976AE63009F8D45 /* SFPSDInnerShadowEffectLayerInformation.m */; };
+		CB5B6B6D2976AE64009F8D45 /* SFPSDBevelEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B4A2976AE63009F8D45 /* SFPSDBevelEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B6E2976AE64009F8D45 /* SFPSDInnerGlowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B4B2976AE63009F8D45 /* SFPSDInnerGlowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B6F2976AE64009F8D45 /* SFPSDSolidFillEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B4C2976AE63009F8D45 /* SFPSDSolidFillEffectLayerInformation.m */; };
+		CB5B6B702976AE64009F8D45 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B4D2976AE63009F8D45 /* SFPSDOuterGlowEffectLayerInformation.m */; };
+		CB5B6B712976AE64009F8D45 /* SFPSDDropShadowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B4E2976AE63009F8D45 /* SFPSDDropShadowEffectLayerInformation.m */; };
+		CB5B6B722976AE64009F8D45 /* SFPSDEffectLayerInformations.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B4F2976AE63009F8D45 /* SFPSDEffectLayerInformations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B732976AE64009F8D45 /* SFPSDInnerShadowEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B502976AE63009F8D45 /* SFPSDInnerShadowEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B742976AE64009F8D45 /* SFPSDSolidFillEffectLayerInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B512976AE63009F8D45 /* SFPSDSolidFillEffectLayerInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B752976AE64009F8D45 /* SFPSDInnerGlowEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B522976AE63009F8D45 /* SFPSDInnerGlowEffectLayerInformation.m */; };
+		CB5B6B762976AE64009F8D45 /* SFPSDBevelEffectLayerInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B532976AE63009F8D45 /* SFPSDBevelEffectLayerInformation.m */; };
+		CB5B6B772976AE64009F8D45 /* SFPSDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B542976AE63009F8D45 /* SFPSDLayer.m */; };
+		CB5B6B782976AE64009F8D45 /* SFPSDGroupOpeningLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B552976AE63009F8D45 /* SFPSDGroupOpeningLayer.m */; };
+		CB5B6B792976AE64009F8D45 /* SFPSDGroupLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B562976AE63009F8D45 /* SFPSDGroupLayer.m */; };
+		CB5B6B7A2976AE64009F8D45 /* SFPSDGroupClosingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B572976AE63009F8D45 /* SFPSDGroupClosingLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B8B2976B156009F8D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B6B8A2976B156009F8D45 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB5B6B262976AD97009F8D45 /* SFPSDWriter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SFPSDWriter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5B6B292976AD97009F8D45 /* SFPSDWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFPSDWriter.h; sourceTree = "<group>"; };
+		CB5B6B312976AE63009F8D45 /* sRGB */ = {isa = PBXFileReference; lastKnownFileType = file; path = sRGB; sourceTree = "<group>"; };
+		CB5B6B322976AE63009F8D45 /* GenericRGB */ = {isa = PBXFileReference; lastKnownFileType = file; path = GenericRGB; sourceTree = "<group>"; };
+		CB5B6B332976AE63009F8D45 /* AdobeRGB1998 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdobeRGB1998; sourceTree = "<group>"; };
+		CB5B6B352976AE63009F8D45 /* NSString+SFPascalString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SFPascalString.h"; sourceTree = "<group>"; };
+		CB5B6B362976AE63009F8D45 /* NSData+SFPackedBits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SFPackedBits.h"; sourceTree = "<group>"; };
+		CB5B6B372976AE63009F8D45 /* NSMutableData+SFAppendValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+SFAppendValue.m"; sourceTree = "<group>"; };
+		CB5B6B382976AE63009F8D45 /* NSString+SFPascalString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SFPascalString.m"; sourceTree = "<group>"; };
+		CB5B6B392976AE63009F8D45 /* NSData+SFPackedBits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SFPackedBits.m"; sourceTree = "<group>"; };
+		CB5B6B3A2976AE63009F8D45 /* NSMutableData+SFAppendValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+SFAppendValue.h"; sourceTree = "<group>"; };
+		CB5B6B3B2976AE63009F8D45 /* SFPSDWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDWriter.m; sourceTree = "<group>"; };
+		CB5B6B3D2976AE63009F8D45 /* SFPSDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDLayer.h; sourceTree = "<group>"; };
+		CB5B6B3E2976AE63009F8D45 /* SFPSDGroupLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupLayer.h; sourceTree = "<group>"; };
+		CB5B6B3F2976AE63009F8D45 /* SFPSDGroupOpeningLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupOpeningLayer.h; sourceTree = "<group>"; };
+		CB5B6B412976AE63009F8D45 /* SFPSDEffectsLayerEffectSignatures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDEffectsLayerEffectSignatures.m; sourceTree = "<group>"; };
+		CB5B6B422976AE63009F8D45 /* SFPSDLayerBlendModes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDLayerBlendModes.m; sourceTree = "<group>"; };
+		CB5B6B432976AE63009F8D45 /* SFPSDEffectsLayerEffectSignatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDEffectsLayerEffectSignatures.h; sourceTree = "<group>"; };
+		CB5B6B442976AE63009F8D45 /* SFPSDLayerBlendModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDLayerBlendModes.h; sourceTree = "<group>"; };
+		CB5B6B452976AE63009F8D45 /* SFPSDGroupClosingLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupClosingLayer.m; sourceTree = "<group>"; };
+		CB5B6B472976AE63009F8D45 /* SFPSDDropShadowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDDropShadowEffectLayerInformation.h; sourceTree = "<group>"; };
+		CB5B6B482976AE63009F8D45 /* SFPSDOuterGlowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDOuterGlowEffectLayerInformation.h; sourceTree = "<group>"; };
+		CB5B6B492976AE63009F8D45 /* SFPSDInnerShadowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDInnerShadowEffectLayerInformation.m; sourceTree = "<group>"; };
+		CB5B6B4A2976AE63009F8D45 /* SFPSDBevelEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDBevelEffectLayerInformation.h; sourceTree = "<group>"; };
+		CB5B6B4B2976AE63009F8D45 /* SFPSDInnerGlowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDInnerGlowEffectLayerInformation.h; sourceTree = "<group>"; };
+		CB5B6B4C2976AE63009F8D45 /* SFPSDSolidFillEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDSolidFillEffectLayerInformation.m; sourceTree = "<group>"; };
+		CB5B6B4D2976AE63009F8D45 /* SFPSDOuterGlowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDOuterGlowEffectLayerInformation.m; sourceTree = "<group>"; };
+		CB5B6B4E2976AE63009F8D45 /* SFPSDDropShadowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDDropShadowEffectLayerInformation.m; sourceTree = "<group>"; };
+		CB5B6B4F2976AE63009F8D45 /* SFPSDEffectLayerInformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDEffectLayerInformations.h; sourceTree = "<group>"; };
+		CB5B6B502976AE63009F8D45 /* SFPSDInnerShadowEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDInnerShadowEffectLayerInformation.h; sourceTree = "<group>"; };
+		CB5B6B512976AE63009F8D45 /* SFPSDSolidFillEffectLayerInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDSolidFillEffectLayerInformation.h; sourceTree = "<group>"; };
+		CB5B6B522976AE63009F8D45 /* SFPSDInnerGlowEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDInnerGlowEffectLayerInformation.m; sourceTree = "<group>"; };
+		CB5B6B532976AE63009F8D45 /* SFPSDBevelEffectLayerInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDBevelEffectLayerInformation.m; sourceTree = "<group>"; };
+		CB5B6B542976AE63009F8D45 /* SFPSDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDLayer.m; sourceTree = "<group>"; };
+		CB5B6B552976AE63009F8D45 /* SFPSDGroupOpeningLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupOpeningLayer.m; sourceTree = "<group>"; };
+		CB5B6B562976AE63009F8D45 /* SFPSDGroupLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupLayer.m; sourceTree = "<group>"; };
+		CB5B6B572976AE63009F8D45 /* SFPSDGroupClosingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupClosingLayer.h; sourceTree = "<group>"; };
+		CB5B6B8A2976B156009F8D45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5B6B232976AD97009F8D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B6B8B2976B156009F8D45 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5B6B1C2976AD97009F8D45 = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B282976AD97009F8D45 /* SFPSDWriter */,
+				CB5B6B272976AD97009F8D45 /* Products */,
+				CB5B6B892976B156009F8D45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5B6B272976AD97009F8D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B262976AD97009F8D45 /* SFPSDWriter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5B6B282976AD97009F8D45 /* SFPSDWriter */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B342976AE63009F8D45 /* Categories */,
+				CB5B6B302976AE63009F8D45 /* ICCProfileData */,
+				CB5B6B3C2976AE63009F8D45 /* Layer Classes */,
+				CB5B6B292976AD97009F8D45 /* SFPSDWriter.h */,
+				CB5B6B3B2976AE63009F8D45 /* SFPSDWriter.m */,
+			);
+			path = SFPSDWriter;
+			sourceTree = "<group>";
+		};
+		CB5B6B302976AE63009F8D45 /* ICCProfileData */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B332976AE63009F8D45 /* AdobeRGB1998 */,
+				CB5B6B322976AE63009F8D45 /* GenericRGB */,
+				CB5B6B312976AE63009F8D45 /* sRGB */,
+			);
+			path = ICCProfileData;
+			sourceTree = "<group>";
+		};
+		CB5B6B342976AE63009F8D45 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B362976AE63009F8D45 /* NSData+SFPackedBits.h */,
+				CB5B6B392976AE63009F8D45 /* NSData+SFPackedBits.m */,
+				CB5B6B3A2976AE63009F8D45 /* NSMutableData+SFAppendValue.h */,
+				CB5B6B372976AE63009F8D45 /* NSMutableData+SFAppendValue.m */,
+				CB5B6B352976AE63009F8D45 /* NSString+SFPascalString.h */,
+				CB5B6B382976AE63009F8D45 /* NSString+SFPascalString.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CB5B6B3C2976AE63009F8D45 /* Layer Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B402976AE63009F8D45 /* Constants */,
+				CB5B6B462976AE63009F8D45 /* Effect Layer Information Classes */,
+				CB5B6B572976AE63009F8D45 /* SFPSDGroupClosingLayer.h */,
+				CB5B6B452976AE63009F8D45 /* SFPSDGroupClosingLayer.m */,
+				CB5B6B3E2976AE63009F8D45 /* SFPSDGroupLayer.h */,
+				CB5B6B562976AE63009F8D45 /* SFPSDGroupLayer.m */,
+				CB5B6B3F2976AE63009F8D45 /* SFPSDGroupOpeningLayer.h */,
+				CB5B6B552976AE63009F8D45 /* SFPSDGroupOpeningLayer.m */,
+				CB5B6B3D2976AE63009F8D45 /* SFPSDLayer.h */,
+				CB5B6B542976AE63009F8D45 /* SFPSDLayer.m */,
+			);
+			path = "Layer Classes";
+			sourceTree = "<group>";
+		};
+		CB5B6B402976AE63009F8D45 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B432976AE63009F8D45 /* SFPSDEffectsLayerEffectSignatures.h */,
+				CB5B6B412976AE63009F8D45 /* SFPSDEffectsLayerEffectSignatures.m */,
+				CB5B6B442976AE63009F8D45 /* SFPSDLayerBlendModes.h */,
+				CB5B6B422976AE63009F8D45 /* SFPSDLayerBlendModes.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CB5B6B462976AE63009F8D45 /* Effect Layer Information Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B4A2976AE63009F8D45 /* SFPSDBevelEffectLayerInformation.h */,
+				CB5B6B532976AE63009F8D45 /* SFPSDBevelEffectLayerInformation.m */,
+				CB5B6B472976AE63009F8D45 /* SFPSDDropShadowEffectLayerInformation.h */,
+				CB5B6B4E2976AE63009F8D45 /* SFPSDDropShadowEffectLayerInformation.m */,
+				CB5B6B4F2976AE63009F8D45 /* SFPSDEffectLayerInformations.h */,
+				CB5B6B4B2976AE63009F8D45 /* SFPSDInnerGlowEffectLayerInformation.h */,
+				CB5B6B522976AE63009F8D45 /* SFPSDInnerGlowEffectLayerInformation.m */,
+				CB5B6B502976AE63009F8D45 /* SFPSDInnerShadowEffectLayerInformation.h */,
+				CB5B6B492976AE63009F8D45 /* SFPSDInnerShadowEffectLayerInformation.m */,
+				CB5B6B482976AE63009F8D45 /* SFPSDOuterGlowEffectLayerInformation.h */,
+				CB5B6B4D2976AE63009F8D45 /* SFPSDOuterGlowEffectLayerInformation.m */,
+				CB5B6B512976AE63009F8D45 /* SFPSDSolidFillEffectLayerInformation.h */,
+				CB5B6B4C2976AE63009F8D45 /* SFPSDSolidFillEffectLayerInformation.m */,
+			);
+			path = "Effect Layer Information Classes";
+			sourceTree = "<group>";
+		};
+		CB5B6B892976B156009F8D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B6B8A2976B156009F8D45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CB5B6B212976AD97009F8D45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B6B672976AE64009F8D45 /* SFPSDEffectsLayerEffectSignatures.h in Headers */,
+				CB5B6B732976AE64009F8D45 /* SFPSDInnerShadowEffectLayerInformation.h in Headers */,
+				CB5B6B5C2976AE64009F8D45 /* NSData+SFPackedBits.h in Headers */,
+				CB5B6B622976AE64009F8D45 /* SFPSDLayer.h in Headers */,
+				CB5B6B722976AE64009F8D45 /* SFPSDEffectLayerInformations.h in Headers */,
+				CB5B6B602976AE64009F8D45 /* NSMutableData+SFAppendValue.h in Headers */,
+				CB5B6B5B2976AE64009F8D45 /* NSString+SFPascalString.h in Headers */,
+				CB5B6B682976AE64009F8D45 /* SFPSDLayerBlendModes.h in Headers */,
+				CB5B6B642976AE64009F8D45 /* SFPSDGroupOpeningLayer.h in Headers */,
+				CB5B6B2A2976AD97009F8D45 /* SFPSDWriter.h in Headers */,
+				CB5B6B7A2976AE64009F8D45 /* SFPSDGroupClosingLayer.h in Headers */,
+				CB5B6B6A2976AE64009F8D45 /* SFPSDDropShadowEffectLayerInformation.h in Headers */,
+				CB5B6B6E2976AE64009F8D45 /* SFPSDInnerGlowEffectLayerInformation.h in Headers */,
+				CB5B6B6B2976AE64009F8D45 /* SFPSDOuterGlowEffectLayerInformation.h in Headers */,
+				CB5B6B6D2976AE64009F8D45 /* SFPSDBevelEffectLayerInformation.h in Headers */,
+				CB5B6B742976AE64009F8D45 /* SFPSDSolidFillEffectLayerInformation.h in Headers */,
+				CB5B6B632976AE64009F8D45 /* SFPSDGroupLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CB5B6B252976AD97009F8D45 /* SFPSDWriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5B6B2D2976AD97009F8D45 /* Build configuration list for PBXNativeTarget "SFPSDWriter" */;
+			buildPhases = (
+				CB5B6B212976AD97009F8D45 /* Headers */,
+				CB5B6B222976AD97009F8D45 /* Sources */,
+				CB5B6B232976AD97009F8D45 /* Frameworks */,
+				CB5B6B242976AD97009F8D45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFPSDWriter;
+			productName = SFPSDWriter;
+			productReference = CB5B6B262976AD97009F8D45 /* SFPSDWriter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5B6B1D2976AD97009F8D45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CB5B6B252976AD97009F8D45 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CB5B6B202976AD97009F8D45 /* Build configuration list for PBXProject "SFPSDWriter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5B6B1C2976AD97009F8D45;
+			productRefGroup = CB5B6B272976AD97009F8D45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5B6B252976AD97009F8D45 /* SFPSDWriter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5B6B242976AD97009F8D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B6B592976AE64009F8D45 /* GenericRGB in Resources */,
+				CB5B6B5A2976AE64009F8D45 /* AdobeRGB1998 in Resources */,
+				CB5B6B582976AE64009F8D45 /* sRGB in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5B6B222976AD97009F8D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5B6B5F2976AE64009F8D45 /* NSData+SFPackedBits.m in Sources */,
+				CB5B6B692976AE64009F8D45 /* SFPSDGroupClosingLayer.m in Sources */,
+				CB5B6B712976AE64009F8D45 /* SFPSDDropShadowEffectLayerInformation.m in Sources */,
+				CB5B6B612976AE64009F8D45 /* SFPSDWriter.m in Sources */,
+				CB5B6B702976AE64009F8D45 /* SFPSDOuterGlowEffectLayerInformation.m in Sources */,
+				CB5B6B762976AE64009F8D45 /* SFPSDBevelEffectLayerInformation.m in Sources */,
+				CB5B6B792976AE64009F8D45 /* SFPSDGroupLayer.m in Sources */,
+				CB5B6B652976AE64009F8D45 /* SFPSDEffectsLayerEffectSignatures.m in Sources */,
+				CB5B6B782976AE64009F8D45 /* SFPSDGroupOpeningLayer.m in Sources */,
+				CB5B6B662976AE64009F8D45 /* SFPSDLayerBlendModes.m in Sources */,
+				CB5B6B772976AE64009F8D45 /* SFPSDLayer.m in Sources */,
+				CB5B6B6C2976AE64009F8D45 /* SFPSDInnerShadowEffectLayerInformation.m in Sources */,
+				CB5B6B6F2976AE64009F8D45 /* SFPSDSolidFillEffectLayerInformation.m in Sources */,
+				CB5B6B5D2976AE64009F8D45 /* NSMutableData+SFAppendValue.m in Sources */,
+				CB5B6B752976AE64009F8D45 /* SFPSDInnerGlowEffectLayerInformation.m in Sources */,
+				CB5B6B5E2976AE64009F8D45 /* NSString+SFPascalString.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CB5B6B2B2976AD97009F8D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB5B6B2C2976AD97009F8D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB5B6B2E2976AD97009F8D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2014 Shiny Frog. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.shinyfrog.SFPSDWriter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB5B6B2F2976AD97009F8D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2014 Shiny Frog. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.shinyfrog.SFPSDWriter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5B6B202976AD97009F8D45 /* Build configuration list for PBXProject "SFPSDWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5B6B2B2976AD97009F8D45 /* Debug */,
+				CB5B6B2C2976AD97009F8D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5B6B2D2976AD97009F8D45 /* Build configuration list for PBXNativeTarget "SFPSDWriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5B6B2E2976AD97009F8D45 /* Debug */,
+				CB5B6B2F2976AD97009F8D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5B6B1D2976AD97009F8D45 /* Project object */;
+}
