@@ -16,5 +16,8 @@
       <FileRef
          location = "group:SFPSDWriter Stress Tester/SFPSDWriter Stress Tester.xcodeproj">
       </FileRef>
+      <FileRef
+         location = "group:SFPSDWriter SwiftUI/SFPSDWriter SwiftUI.xcodeproj">
+      </FileRef>
    </Group>
 </Workspace>
