@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SFPSDWriter/SFPSDWriter.xcodeproj">
+      location = "group:SFPSDWriter.xcodeproj">
    </FileRef>
    <Group
       location = "group:Example Projects"
