@@ -28,9 +28,9 @@
  *
  * For normal packbits just to skip = 1
  *
- * @param range: The range within the data object that should be encoded. Useful
+ * @param range The range within the data object that should be encoded. Useful
  * for specifying a non-zero starting offset to get a certain channel encoded.
- * @param skip: The number of bytes to advance as the data is encoded. Skip = 1 will
+ * @param skip The number of bytes to advance as the data is encoded. Skip = 1 will
  * encode every byte, skip = 4 will encode every fourth byte, and so on. */
 - (NSData *)sfPackedBitsForRange:(NSRange)range skip:(int)skip;
 

@@ -20,8 +20,8 @@
  * into the data object. Very useful for writing to file formats that have header structures
  * that require a certain number of bytes be used for a certain value. i.e. PSD and TIFF
  *
- * @param value: The value to append
- * @param length: The number of bytes that should be used to store the value. The value will be padded
+ * @param value The value to append
+ * @param length The number of bytes that should be used to store the value. The value will be padded
  * to length bytes regardless of the number of bytes required to store it. */
 - (void)sfAppendValue:(long)value length:(int)length;
 

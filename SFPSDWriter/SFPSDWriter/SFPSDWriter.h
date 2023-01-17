@@ -71,7 +71,7 @@ typedef enum SFPSDColorProfile SFPSDColorProfile;
 
 /**
  * Initializes a new PSDWriter for creating a PSD document with the specified size.
- * @param size The document size. */
+ * @param documentSize The document size. */
 - (id)initWithDocumentSize:(CGSize)documentSize;
 
 /**

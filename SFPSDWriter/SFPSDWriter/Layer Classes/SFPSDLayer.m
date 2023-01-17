@@ -128,11 +128,11 @@
 
     if (imageInDocumentRegion.origin.x < 0) {
         imageCropRegion.size.width = imageCropRegion.size.width + imageInDocumentRegion.origin.x;
-        imageCropRegion.origin.x = abs(imageInDocumentRegion.origin.x);
+        imageCropRegion.origin.x = fabs(imageInDocumentRegion.origin.x);
     }
     if (imageInDocumentRegion.origin.y < 0) {
         imageCropRegion.size.height = imageCropRegion.size.height + imageInDocumentRegion.origin.y;
-        imageCropRegion.origin.y = abs(imageInDocumentRegion.origin.y);
+        imageCropRegion.origin.y = fabs(imageInDocumentRegion.origin.y);
     }
     
     if (imageInDocumentRegion.origin.x + imageInDocumentRegion.size.width > self.documentSize.width) {
