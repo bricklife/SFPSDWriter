@@ -47,3 +47,9 @@ xcuserdata
 
 # Xcode 5 VCS data
 *.xccheckout
+
+# Swift Package
+.build
+.swiftpm/config/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
