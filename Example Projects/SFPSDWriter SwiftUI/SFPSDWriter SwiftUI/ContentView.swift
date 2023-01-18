@@ -25,10 +25,10 @@ struct ContentView: View {
             // SFPSDWriter instance
             let psdWriter = SFPSDWriter(documentSize: CGSize(width: firstImage.width, height: firstImage.height),
                                         andResolution: 300,
-                                        andResolutionUnit: SFPSDResolutionUnitPPI)!
+                                        andResolutionUnit: SFPSDResolutionUnitPPI)
             
             // We want all our layers to be included in a group...
-            let firstGroup = psdWriter.openGroupLayer(withName: "We ♥ groups!")!
+            let firstGroup = psdWriter.openGroupLayer(withName: "We ♥ groups!")
             
             // ... and the group should be open at file opening
             firstGroup.isOpened = true
@@ -47,7 +47,7 @@ struct ContentView: View {
             let secondLayer = psdWriter.addLayer(with: secondImage,
                                                  andName: "Second Layer",
                                                  andOpacity: 0.5,
-                                                 andOffset: .init(x: 116, y: 66))!
+                                                 andOffset: .init(x: 116, y: 66))
             
             // ... and with "Darken" blend mode
             secondLayer.blendMode = SFPSDLayerBlendModeDarken

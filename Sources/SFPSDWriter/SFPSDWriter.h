@@ -34,18 +34,20 @@ enum SFPSDColorProfile {
 };
 typedef enum SFPSDColorProfile SFPSDColorProfile;
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface SFPSDWriter : NSObject
 {
 }
 
 /**  Context used to hold the flattened image for the PSD preview */
-@property (nonatomic, assign) CGContextRef flattenedContext;
+@property (nonatomic, assign, nullable) CGContextRef flattenedContext;
 
 /** 
  * The PSDLayer objects with layer data, names, etc... Note that when you call
  * createPSDData, this array is slowly emptied - the PSDWriter removes the individual layers
  * from memory as it builds the PSD file. */
-@property (nonatomic, strong) NSMutableArray *layers;
+@property (nonatomic, strong, nullable) NSMutableArray<SFPSDLayer *> *layers;
 
 /** The size of the PSD you're exporting. */
 @property (nonatomic, assign) CGSize documentSize;
@@ -67,7 +69,7 @@ typedef enum SFPSDColorProfile SFPSDColorProfile;
 @property (nonatomic, assign) BOOL hasTransparentLayers;
 
 /** Optional. The RGBA data for a flattened "preview" of the PSD. */
-@property (nonatomic, strong) NSData * flattenedData;
+@property (nonatomic, strong, nullable) NSData * flattenedData;
 
 /**
  * Initializes a new PSDWriter for creating a PSD document with the specified size.
@@ -88,7 +90,7 @@ typedef enum SFPSDColorProfile SFPSDColorProfile;
  * @param resolutionUnit The unit of the document resolution.
  * @param hasTransparentLayers tells if the layer has the alpha channel.
  * @param layers Initial layers. */
-- (id)initWithDocumentSize:(CGSize)documentSize andResolution:(float)resolution andResolutionUnit:(SFPSDResolutionUnit)resolutionUnit andHasTransparentLayers:(BOOL)hasTransparentLayers andLayers:(NSArray *)layers;
+- (id)initWithDocumentSize:(CGSize)documentSize andResolution:(float)resolution andResolutionUnit:(SFPSDResolutionUnit)resolutionUnit andHasTransparentLayers:(BOOL)hasTransparentLayers andLayers:(nullable NSArray<SFPSDLayer *> *)layers;
 
 /**
  * Adds a new layer to the PSD image with a name. The opacity of the layer will be 1 and no offset will be applied.
@@ -146,7 +148,7 @@ typedef enum SFPSDColorProfile SFPSDColorProfile;
 - (SFPSDGroupOpeningLayer *)openGroupLayerWithName:(NSString *)name andOpacity:(float)opacity andIsOpened:(BOOL)isOpened;
 
 /** Closes the corresponding opened PSD group without returning errors. The function will simply return nil if there is no opened group to close. */
-- (SFPSDGroupClosingLayer *)closeCurrentGroupLayer;
+- (nullable SFPSDGroupClosingLayer *)closeCurrentGroupLayer;
 
 /** 
  * Closes the corresponding opened PSD group.
@@ -154,16 +156,16 @@ typedef enum SFPSDColorProfile SFPSDColorProfile;
  * The layer will have the name and other data of the SFPSDGroupOpeningLayer that it is closing
  *
  * @return The newly created group layer in order to customize it after the creation. */
-- (SFPSDGroupClosingLayer *)closeCurrentGroupLayerWithError:(NSError * __autoreleasing *)error;
+- (nullable SFPSDGroupClosingLayer *)closeCurrentGroupLayerWithError:(NSError * __autoreleasing *)error;
 
 /** The number of channels of the PSD document. If it has transparencies - 4, else 3. */
 - (int)numberOfChannels;
 
 /** An array with only visible layers inside the document bounds. */
-- (NSArray *)visibleLayers;
+- (NSArray<SFPSDLayer *> *)visibleLayers;
 
 /** Deprecated function. Use -createPSDDataWithError: instead */
-- (NSData *)createPSDData;
+- (nullable NSData *)createPSDData;
 
 /**
  * Generates an NSData object representing a PSD image with the width and height specified by documentSize
@@ -171,6 +173,8 @@ typedef enum SFPSDColorProfile SFPSDColorProfile;
  * called on a separate thread.
  *
  * @return PSD data. This data has to be written on a file. */
-- (NSData *)createPSDDataWithError:(NSError * __autoreleasing *)error;
+- (nullable NSData *)createPSDDataWithError:(NSError * __autoreleasing *)error;
 
 @end
+
+NS_ASSUME_NONNULL_END

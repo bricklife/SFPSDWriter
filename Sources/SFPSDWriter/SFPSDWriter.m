@@ -81,8 +81,6 @@
                  andLayers:(NSArray *)layers
 {
     self = [super init];
-    if (!self) return nil;
-    
 
     self.flattenedContext = nil;
     self.flattenedData = nil;
@@ -384,7 +382,7 @@
         NSMutableDictionary *errorDetail = [NSMutableDictionary dictionary];
         [errorDetail setValue:@"No visible layers in the document" forKey:NSLocalizedDescriptionKey];
         *error = [NSError errorWithDomain:@"net.shinyfrog.SFPSDWriter" code:2 userInfo:errorDetail];
-        return  result;
+        return nil;
     }
 	
 	// Modify the input data if necessary
