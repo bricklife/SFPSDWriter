@@ -31,9 +31,9 @@ typedef enum {
 /** "Size" Bevel effect configuration inside Photoshop (0...250) */
 @property (nonatomic, assign) long size;
 /** "Highlight Blend Mode" Bevel effect configuration inside Photoshop */
-@property (nonatomic, strong) NSString *highlightBlendMode;
+@property (nonatomic, strong) SFPSDLayerBlendMode highlightBlendMode;
 /** "Shadow Blend Mode" Bevel effect configuration inside Photoshop */
-@property (nonatomic, strong) NSString *shadowBlendMode;
+@property (nonatomic, strong) SFPSDLayerBlendMode shadowBlendMode;
 /** Highlight Color Bevel effect configuration inside Photoshop */
 @property (nonatomic) CGColorRef highlightColor;
 /** Shadow Color Bevel effect configuration inside Photoshop */
