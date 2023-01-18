@@ -50,7 +50,7 @@ struct ContentView: View {
                                                  offset: .init(x: 116, y: 66))
             
             // ... and with "Darken" blend mode
-            secondLayer.blendMode = SFPSDLayerBlendModeDarken
+            secondLayer.blendMode = .darken
             
             // We'll prepare the Drop Shadow Effect Layer information
             let dropShadowInformation = SFPSDDropShadowEffectLayerInformation()
@@ -59,7 +59,7 @@ struct ContentView: View {
             dropShadowInformation.angle = 90
             dropShadowInformation.distance = 5
             //dropShadowInformation.color = CGColor(red: 1, green: 0, blue: 0, alpha: 0)
-            dropShadowInformation.blendMode = SFPSDLayerBlendModeNormal
+            dropShadowInformation.blendMode = .normal
             dropShadowInformation.useGlobalLight = false
             dropShadowInformation.opacity = 100
             

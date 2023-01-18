@@ -17,7 +17,7 @@
 /** Color Outer Glow effect configuration inside Photoshop */
 @property (nonatomic, assign) CGColorRef color;
 /** "Blend Mode" Outer Glow effect configuration inside Photoshop */
-@property (nonatomic, strong) NSString *blendMode;
+@property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
 /** Set to YES in order to enable the effect */
 @property (nonatomic, assign) BOOL enabled;
 /** "Opacity" Outer Glow effect configuration inside Photoshop (0...100) */

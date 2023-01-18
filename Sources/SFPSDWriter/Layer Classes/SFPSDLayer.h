@@ -61,7 +61,7 @@
 @property (nonatomic, assign) BOOL shouldUnpremultiplyLayerData;
 
 /** Layer blend mode. */
-@property (nonatomic, strong) NSString *blendMode;
+@property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
 
 #pragma mark - Effects Layer Informations
 

@@ -23,7 +23,7 @@
 /** Color Drop Shadow effect configuration inside Photoshop */
 @property (nonatomic, assign) CGColorRef color;
 /** "Blend Mode" Drop Shadow effect configuration inside Photoshop */
-@property (nonatomic, strong) NSString *blendMode;
+@property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
 /** Set to YES in order to enable the effect */
 @property (nonatomic, assign) BOOL enabled;
 /** "Use Global Light" Drop Shadow effect configuration inside Photoshop */

@@ -9,10 +9,12 @@
 //
 #import <Foundation/Foundation.h>
 
-extern NSString* const SFPSDEffectsLayerEffectSignatureCommonState;
-extern NSString* const SFPSDEffectsLayerEffectSignatureDropShadow;
-extern NSString* const SFPSDEffectsLayerEffectSignatureInnerShadow;
-extern NSString* const SFPSDEffectsLayerEffectSignatureOuterGlow;
-extern NSString* const SFPSDEffectsLayerEffectSignatureInnerGlow;
-extern NSString* const SFPSDEffectsLayerEffectSignatureBevel;
-extern NSString* const SFPSDEffectsLayerEffectSignatureSolidFill;
+typedef NSString* SFPSDEffectsLayerEffectSignature NS_TYPED_EXTENSIBLE_ENUM;
+
+extern SFPSDEffectsLayerEffectSignature const SFPSDEffectsLayerEffectSignatureCommonState;
+extern SFPSDEffectsLayerEffectSignature const SFPSDEffectsLayerEffectSignatureDropShadow;
+extern SFPSDEffectsLayerEffectSignature const SFPSDEffectsLayerEffectSignatureInnerShadow;
+extern SFPSDEffectsLayerEffectSignature const SFPSDEffectsLayerEffectSignatureOuterGlow;
+extern SFPSDEffectsLayerEffectSignature const SFPSDEffectsLayerEffectSignatureInnerGlow;
+extern SFPSDEffectsLayerEffectSignature const SFPSDEffectsLayerEffectSignatureBevel;
+extern SFPSDEffectsLayerEffectSignature const SFPSDEffectsLayerEffectSignatureSolidFill;
