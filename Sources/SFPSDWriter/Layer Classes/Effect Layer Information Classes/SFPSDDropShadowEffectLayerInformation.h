@@ -21,7 +21,7 @@
 /** "Distance" Drop Shadow effect configuration inside Photoshop (0...30000) */
 @property (nonatomic, assign) long distance;
 /** Color Drop Shadow effect configuration inside Photoshop */
-@property (nonatomic, assign) CGColorRef color;
+@property (nonatomic) CGColorRef color;
 /** "Blend Mode" Drop Shadow effect configuration inside Photoshop */
 @property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
 /** Set to YES in order to enable the effect */

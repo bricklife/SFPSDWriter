@@ -20,7 +20,7 @@ typedef enum {
 /** "Size" Inner Glow effect configuration inside Photoshop (0...250) */
 @property (nonatomic, assign) long size;
 /** Color Inner Glow effect configuration inside Photoshop */
-@property (nonatomic, assign) CGColorRef color;
+@property (nonatomic) CGColorRef color;
 /** "Blend Mode" Inner Glow effect configuration inside Photoshop */
 @property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
 /** Set to YES in order to enable the effect */

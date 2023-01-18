@@ -29,6 +29,18 @@
     return self;
 }
 
+- (void)dealloc
+{
+    CGColorRelease(_color);
+}
+
+- (void)setColor:(CGColorRef)color
+{
+    CGColorRetain(color);
+    CGColorRelease(_color);
+    _color = color;
+}
+
 - (void)setSize:(long)size
 {
     if (size < 0) {

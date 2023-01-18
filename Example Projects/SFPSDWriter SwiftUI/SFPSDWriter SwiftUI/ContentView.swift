@@ -58,7 +58,7 @@ struct ContentView: View {
             dropShadowInformation.size = 100
             dropShadowInformation.angle = 90
             dropShadowInformation.distance = 5
-            //dropShadowInformation.color = CGColor(red: 1, green: 0, blue: 0, alpha: 0)
+            dropShadowInformation.color = CGColor(red: 1, green: 0, blue: 0, alpha: 0)
             dropShadowInformation.blendMode = .normal
             dropShadowInformation.useGlobalLight = false
             dropShadowInformation.opacity = 100
