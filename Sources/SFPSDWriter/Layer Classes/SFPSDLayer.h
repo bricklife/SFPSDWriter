@@ -27,7 +27,7 @@
 @property (nonatomic, strong) NSString *name;
 
 /** The image reference */
-@property (nonatomic, assign) CGImageRef image;
+@property (nonatomic) CGImageRef image;
 
 /** 
  * The image data in RGBA format.
@@ -71,23 +71,23 @@
 
 /** Effects Layer information for the Inner Shafow Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, assign) SFPSDInnerShadowEffectLayerInformation *innerShadowEffectLayerInformation;
+@property (nonatomic, strong) SFPSDInnerShadowEffectLayerInformation *innerShadowEffectLayerInformation;
 
 /** Effects Layer information for the Outer Glow Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, assign) SFPSDOuterGlowEffectLayerInformation *outerGlowEffectLayerInformation;
+@property (nonatomic, strong) SFPSDOuterGlowEffectLayerInformation *outerGlowEffectLayerInformation;
 
 /** Effects Layer information for the Inner Glow Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, assign) SFPSDInnerGlowEffectLayerInformation *innerGlowEffectLayerInformation;
+@property (nonatomic, strong) SFPSDInnerGlowEffectLayerInformation *innerGlowEffectLayerInformation;
 
 /** Effects Layer information for the Bevel Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, assign) SFPSDBevelEffectLayerInformation *bevelEffectLayerInformation;
+@property (nonatomic, strong) SFPSDBevelEffectLayerInformation *bevelEffectLayerInformation;
 
 /** Effects Layer information for the Solid Fill Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, assign) SFPSDSolidFillEffectLayerInformation *solidFillEffectLayerInformation;
+@property (nonatomic, strong) SFPSDSolidFillEffectLayerInformation *solidFillEffectLayerInformation;
 
 #pragma mark - Initializers
 
