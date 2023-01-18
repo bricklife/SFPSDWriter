@@ -11,12 +11,12 @@
 		CB5B6B582976AE64009F8D45 /* sRGB in Resources */ = {isa = PBXBuildFile; fileRef = CB5B6B312976AE63009F8D45 /* sRGB */; };
 		CB5B6B592976AE64009F8D45 /* GenericRGB in Resources */ = {isa = PBXBuildFile; fileRef = CB5B6B322976AE63009F8D45 /* GenericRGB */; };
 		CB5B6B5A2976AE64009F8D45 /* AdobeRGB1998 in Resources */ = {isa = PBXBuildFile; fileRef = CB5B6B332976AE63009F8D45 /* AdobeRGB1998 */; };
-		CB5B6B5B2976AE64009F8D45 /* NSString+SFPascalString.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B352976AE63009F8D45 /* NSString+SFPascalString.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB5B6B5C2976AE64009F8D45 /* NSData+SFPackedBits.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B362976AE63009F8D45 /* NSData+SFPackedBits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B5B2976AE64009F8D45 /* NSString+SFPascalString.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B352976AE63009F8D45 /* NSString+SFPascalString.h */; };
+		CB5B6B5C2976AE64009F8D45 /* NSData+SFPackedBits.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B362976AE63009F8D45 /* NSData+SFPackedBits.h */; };
 		CB5B6B5D2976AE64009F8D45 /* NSMutableData+SFAppendValue.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B372976AE63009F8D45 /* NSMutableData+SFAppendValue.m */; };
 		CB5B6B5E2976AE64009F8D45 /* NSString+SFPascalString.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B382976AE63009F8D45 /* NSString+SFPascalString.m */; };
 		CB5B6B5F2976AE64009F8D45 /* NSData+SFPackedBits.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B392976AE63009F8D45 /* NSData+SFPackedBits.m */; };
-		CB5B6B602976AE64009F8D45 /* NSMutableData+SFAppendValue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3A2976AE63009F8D45 /* NSMutableData+SFAppendValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5B6B602976AE64009F8D45 /* NSMutableData+SFAppendValue.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3A2976AE63009F8D45 /* NSMutableData+SFAppendValue.h */; };
 		CB5B6B612976AE64009F8D45 /* SFPSDWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B3B2976AE63009F8D45 /* SFPSDWriter.m */; };
 		CB5B6B622976AE64009F8D45 /* SFPSDLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3D2976AE63009F8D45 /* SFPSDLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB5B6B632976AE64009F8D45 /* SFPSDGroupLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B3E2976AE63009F8D45 /* SFPSDGroupLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,7 +43,6 @@
 		CB5B6B782976AE64009F8D45 /* SFPSDGroupOpeningLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B552976AE63009F8D45 /* SFPSDGroupOpeningLayer.m */; };
 		CB5B6B792976AE64009F8D45 /* SFPSDGroupLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B6B562976AE63009F8D45 /* SFPSDGroupLayer.m */; };
 		CB5B6B7A2976AE64009F8D45 /* SFPSDGroupClosingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5B6B572976AE63009F8D45 /* SFPSDGroupClosingLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB5B6B8B2976B156009F8D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5B6B8A2976B156009F8D45 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,7 +83,6 @@
 		CB5B6B552976AE63009F8D45 /* SFPSDGroupOpeningLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupOpeningLayer.m; sourceTree = "<group>"; };
 		CB5B6B562976AE63009F8D45 /* SFPSDGroupLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPSDGroupLayer.m; sourceTree = "<group>"; };
 		CB5B6B572976AE63009F8D45 /* SFPSDGroupClosingLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPSDGroupClosingLayer.h; sourceTree = "<group>"; };
-		CB5B6B8A2976B156009F8D45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +90,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB5B6B8B2976B156009F8D45 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,9 +99,8 @@
 		CB5B6B1C2976AD97009F8D45 = {
 			isa = PBXGroup;
 			children = (
-				CB5B6B282976AD97009F8D45 /* SFPSDWriter */,
+				CB5B6C602976F3F0009F8D45 /* Sources */,
 				CB5B6B272976AD97009F8D45 /* Products */,
-				CB5B6B892976B156009F8D45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -199,12 +195,12 @@
 			path = "Effect Layer Information Classes";
 			sourceTree = "<group>";
 		};
-		CB5B6B892976B156009F8D45 /* Frameworks */ = {
+		CB5B6C602976F3F0009F8D45 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				CB5B6B8A2976B156009F8D45 /* CoreGraphics.framework */,
+				CB5B6B282976AD97009F8D45 /* SFPSDWriter */,
 			);
-			name = Frameworks;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

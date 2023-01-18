@@ -483,15 +483,20 @@
         // because iOS does not have NSColorProfile
         NSString *ICCProfileDataFilePath;
 
+#if SWIFT_PACKAGE
+        NSBundle *bundle = SWIFTPM_MODULE_BUNDLE;
+#else
+        NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+#endif
         switch ([self colorProfile]) {
             case SFPSDAdobeRGB1998ColorProfile:
-                ICCProfileDataFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"AdobeRGB1998" ofType:@""];
+                ICCProfileDataFilePath = [bundle pathForResource:@"AdobeRGB1998" ofType:@""];
                 break;
             case SFPSDGenericRGBColorProfile:
-                ICCProfileDataFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"GenericRGB" ofType:@""];
+                ICCProfileDataFilePath = [bundle pathForResource:@"GenericRGB" ofType:@""];
                 break;
             case SFPSDSRGBColorProfile:
-                ICCProfileDataFilePath = [[NSBundle bundleForClass:[self class]] pathForResource:@"sRGB" ofType:@""];
+                ICCProfileDataFilePath = [bundle pathForResource:@"sRGB" ofType:@""];
                 break;
             default:
                 /* this is an unreachable case */
