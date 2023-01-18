@@ -16,6 +16,8 @@
 
 #import "SFPSDEffectLayerInformations.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 @interface SFPSDLayer : NSObject
 {
 }
@@ -24,17 +26,17 @@
 @property (nonatomic, assign) CGSize documentSize;
 
 /** The name of the layer. */
-@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong, nullable) NSString *name;
 
 /** The image reference */
-@property (nonatomic) CGImageRef image;
+@property (nonatomic, nullable) CGImageRef image;
 
 /** 
  * The image data in RGBA format.
  *
  * The data is kept as property because of the massive use in the PSD generation phase. The 
  * data is created on first usage and niled every time the image changes. */
-@property (nonatomic, strong) NSData *visibleImageData;
+@property (nonatomic, strong, nullable) NSData *visibleImageData;
 
 //@property (nonatomic, assign) CGRect imageRegion;
 
@@ -61,33 +63,33 @@
 @property (nonatomic, assign) BOOL shouldUnpremultiplyLayerData;
 
 /** Layer blend mode. */
-@property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
+@property (nonatomic, strong, nullable) SFPSDLayerBlendMode blendMode;
 
 #pragma mark - Effects Layer Informations
 
 /** Effects Layer information for the Drop Shafow Effect 
   * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, strong) SFPSDDropShadowEffectLayerInformation *dropShadowEffectLayerInformation;
+@property (nonatomic, strong, nullable) SFPSDDropShadowEffectLayerInformation *dropShadowEffectLayerInformation;
 
 /** Effects Layer information for the Inner Shafow Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, strong) SFPSDInnerShadowEffectLayerInformation *innerShadowEffectLayerInformation;
+@property (nonatomic, strong, nullable) SFPSDInnerShadowEffectLayerInformation *innerShadowEffectLayerInformation;
 
 /** Effects Layer information for the Outer Glow Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, strong) SFPSDOuterGlowEffectLayerInformation *outerGlowEffectLayerInformation;
+@property (nonatomic, strong, nullable) SFPSDOuterGlowEffectLayerInformation *outerGlowEffectLayerInformation;
 
 /** Effects Layer information for the Inner Glow Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, strong) SFPSDInnerGlowEffectLayerInformation *innerGlowEffectLayerInformation;
+@property (nonatomic, strong, nullable) SFPSDInnerGlowEffectLayerInformation *innerGlowEffectLayerInformation;
 
 /** Effects Layer information for the Bevel Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, strong) SFPSDBevelEffectLayerInformation *bevelEffectLayerInformation;
+@property (nonatomic, strong, nullable) SFPSDBevelEffectLayerInformation *bevelEffectLayerInformation;
 
 /** Effects Layer information for the Solid Fill Effect
  * Can be found in the "Layer -> Layer Style" menu in Photoshop */
-@property (nonatomic, strong) SFPSDSolidFillEffectLayerInformation *solidFillEffectLayerInformation;
+@property (nonatomic, strong, nullable) SFPSDSolidFillEffectLayerInformation *solidFillEffectLayerInformation;
 
 #pragma mark - Initializers
 
@@ -152,4 +154,6 @@
 /** 
  * A convenience function for getting RGBA NSData from a CGImageRef.
  */
-NSData *CGImageGetData(CGImageRef image, CGRect region);
+NSData * _Nullable CGImageGetData(CGImageRef image, CGRect region);
+
+NS_ASSUME_NONNULL_END
