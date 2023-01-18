@@ -36,6 +36,26 @@
     return self;
 }
 
+- (void)dealloc
+{
+    CGColorRelease(_highlightColor);
+    CGColorRelease(_shadowColor);
+}
+
+- (void)setHighlightColor:(CGColorRef)highlightColor
+{
+    CGColorRetain(highlightColor);
+    CGColorRelease(_highlightColor);
+    _highlightColor = highlightColor;
+}
+
+- (void)setShadowColor:(CGColorRef)shadowColor
+{
+    CGColorRetain(shadowColor);
+    CGColorRelease(_shadowColor);
+    _shadowColor = shadowColor;
+}
+
 - (void)setAngle:(long)angle
 {
     if (angle < -360) {

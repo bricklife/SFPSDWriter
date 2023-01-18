@@ -19,9 +19,9 @@
 /** "Distance" Inner Shadow effect configuration inside Photoshop (0...30000) */
 @property (nonatomic, assign) long distance;
 /** Color Inner Shadow effect configuration inside Photoshop */
-@property (nonatomic, assign) CGColorRef color;
+@property (nonatomic) CGColorRef color;
 /** "Belnd Mode" Inner Shadow effect configuration inside Photoshop */
-@property (nonatomic, strong) NSString *blendMode;
+@property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
 /** Set to YES in order to enable the effect */
 @property (nonatomic, assign) BOOL enabled;
 /** "Use Global Light" Inner Shadow effect configuration inside Photoshop */

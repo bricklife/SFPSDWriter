@@ -12,8 +12,8 @@
 
 @interface SFPSDSolidFillEffectLayerInformation : NSObject
 
-@property (nonatomic, strong) NSString *blendMode;
-@property (nonatomic, assign) CGColorRef color;
+@property (nonatomic, strong) SFPSDLayerBlendMode blendMode;
+@property (nonatomic) CGColorRef color;
 @property (nonatomic, assign) long opacity; // (0...100)
 @property (nonatomic, assign) BOOL enabled;
 

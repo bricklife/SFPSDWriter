@@ -32,7 +32,6 @@
 - (id)initWithNumberOfChannels:(int)numberOfChannels andOpacity:(float)opacity andShouldFlipLayerData:(BOOL)shouldFlipLayerData andShouldUnpremultiplyLayerData:(BOOL)shouldUnpremultiplyLayerData andBlendMode:(NSString *)blendMode
 {
     self = [super init];
-    if (!self) return nil;
     
     self.numberOfChannels = numberOfChannels;
     self.opacity = opacity;

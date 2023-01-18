@@ -24,33 +24,33 @@ struct ContentView: View {
             
             // SFPSDWriter instance
             let psdWriter = SFPSDWriter(documentSize: CGSize(width: firstImage.width, height: firstImage.height),
-                                        andResolution: 300,
-                                        andResolutionUnit: SFPSDResolutionUnitPPI)!
+                                        resolution: 300,
+                                        resolutionUnit: .ppi)
             
             // We want all our layers to be included in a group...
-            let firstGroup = psdWriter.openGroupLayer(withName: "We ♥ groups!")!
+            let firstGroup = psdWriter.openGroupLayer(name: "We ♥ groups!")
             
             // ... and the group should be open at file opening
             firstGroup.isOpened = true
             
             // Adding the first image layer
-            psdWriter.addLayer(with: firstImage,
-                               andName: "First Layer",
-                               andOpacity: 1,
-                               andOffset: .zero)
+            psdWriter.addLayer(cgImage: firstImage,
+                               name: "First Layer",
+                               opacity: 1,
+                               offset: .zero)
             
             // I mean, we really love groups
             // This time we don't need to change group's attributes so we don't store the reference
-            psdWriter.openGroupLayer(withName: "You'll have to open me!")
+            psdWriter.openGroupLayer(name: "You'll have to open me!")
             
             // The second image will be in the second group, offsetted by (116px, 66px), semi-transparent...
-            let secondLayer = psdWriter.addLayer(with: secondImage,
-                                                 andName: "Second Layer",
-                                                 andOpacity: 0.5,
-                                                 andOffset: .init(x: 116, y: 66))!
+            let secondLayer = psdWriter.addLayer(cgImage: secondImage,
+                                                 name: "Second Layer",
+                                                 opacity: 0.5,
+                                                 offset: .init(x: 116, y: 66))
             
             // ... and with "Darken" blend mode
-            secondLayer.blendMode = SFPSDLayerBlendModeDarken
+            secondLayer.blendMode = .darken
             
             // We'll prepare the Drop Shadow Effect Layer information
             let dropShadowInformation = SFPSDDropShadowEffectLayerInformation()
@@ -58,8 +58,8 @@ struct ContentView: View {
             dropShadowInformation.size = 100
             dropShadowInformation.angle = 90
             dropShadowInformation.distance = 5
-            //dropShadowInformation.color = CGColor(red: 1, green: 0, blue: 0, alpha: 0)
-            dropShadowInformation.blendMode = SFPSDLayerBlendModeNormal
+            dropShadowInformation.color = CGColor(red: 1, green: 0, blue: 0, alpha: 0)
+            dropShadowInformation.blendMode = .normal
             dropShadowInformation.useGlobalLight = false
             dropShadowInformation.opacity = 100
             
@@ -78,19 +78,20 @@ struct ContentView: View {
             psdWriter.closeCurrentGroupLayer() // first group
             
             // We can change the embedded color profile of the document (for example with an "sRGB IEC61966-2.1")
-            psdWriter.colorProfile = SFPSDSRGBColorProfile
+            psdWriter.colorProfile = .sRGB
             
             // We'll write our test file into the documents folder of the application
             let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
             let documentsDirectory = urls[0]
             let fileUrl = documentsDirectory.appendingPathComponent("SFPSDWriter Test File.psd")
             
-            // Retrieving the PSD data
-            let psdData = psdWriter.createPSDData()
-            
-            // Writing the data on disk
             do {
-                try psdData?.write(to: fileUrl)
+                // Retrieving the PSD data
+                let psdData = try psdWriter.createPSDData()
+                
+                // Writing the data on disk
+                try psdData.write(to: fileUrl)
+                
                 print(fileUrl.path)
             } catch {
                 print(error)
